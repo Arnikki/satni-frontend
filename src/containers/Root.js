@@ -7,10 +7,13 @@ import { I18nProvider } from '@lingui/react';
 import AsyncApp from './AsyncApp';
 import ErrorBoundary from '../components/ErrorBoundary';
 
+import catalogSe from './../locales/se/messages.js';
+
+const catalogs = { se: catalogSe };
 const NoMatch = () => <Redirect to='/' />;
 
 const Root = ({ store }) => (
-  <I18nProvider language='en'>
+  <I18nProvider language='se' catalogs={catalogs}>
     <Provider store={store}>
       <MuiThemeProvider>
         <ErrorBoundary>
