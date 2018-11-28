@@ -6,3 +6,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/Searcher.js:88
+msgid "Fetching search results …"
+msgstr ""
+
+#: src/components/Source.js:13
+msgid "Source: {source}"
+msgstr ""
+
+#: src/containers/AsyncApp.js:60
+msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
+msgstr ""
