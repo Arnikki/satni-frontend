@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'react-emotion';
+import { Trans } from '@lingui/macro';
 import Searcher from '../components/Searcher';
 import Articles from '../components/Articles';
 
@@ -56,8 +57,10 @@ const AsyncApp = ({match}) => (
         background: '#999',
         textAlign: 'center'
       })}>
+        <Trans>
           Sámi dictionaries and terms delivered by<br />
-        <a href='http://divvun.no'>Divvun</a>, <a href='http://giella.org'>Giellagáldu</a> and <a href='http://giellatekno.uit.no'>Giellatekno</a>
+          <a href='http://divvun.no'>Divvun</a>, <a href='http://giella.org'>Giellagáldu</a> and <a href='http://giellatekno.uit.no'>Giellatekno</a>
+        </Trans>
       </footer>
     </Box>
   </MyGrid>

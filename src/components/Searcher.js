@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import { inHTMLData } from 'xss-filters';
 import { css } from 'react-emotion';
 import { debounce } from 'throttle-debounce';
+import { Trans } from '@lingui/macro'
 import {
   Menu,
   ControllerButton,
@@ -84,7 +85,7 @@ class Searcher extends Component {
               {isOpen ?
                 <div>
                   {search.isSearching ?
-                    <div>Fetching search results …</div> :
+                    <div><Trans>Fetching search results …</Trans></div> :
                     <Menu>
                       {search.resultItems
                       .map((item, index) => (

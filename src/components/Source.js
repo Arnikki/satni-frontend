@@ -1,5 +1,6 @@
 import React from 'react';
-import { css } from "react-emotion";
+import { css } from 'react-emotion';
+import { Trans } from '@lingui/macro';
 
 const Source = ({source}) => {
   return (
@@ -8,7 +9,9 @@ const Source = ({source}) => {
       marginTop: '1%',
       paddingBottom: '0',
       fontSize: '90%'
-    })}>Source: {source}</div>
+    })}>
+      <Trans>Source: {source}</Trans>
+    </div>
   );
 };
 
