@@ -13,8 +13,64 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/components/Stem.js:22
+msgid "A"
+msgstr ""
+
+#: src/components/Stem.js:34
+msgid "ABBR"
+msgstr ""
+
+#: src/components/Stem.js:28
+msgid "Adp"
+msgstr ""
+
+#: src/components/Stem.js:23
+msgid "Adv"
+msgstr ""
+
+#: src/components/Stem.js:27
+msgid "CC"
+msgstr ""
+
+#: src/components/Stem.js:26
+msgid "CS"
+msgstr ""
+
 #: src/components/Searcher.js:88
 msgid "Fetching search results …"
+msgstr ""
+
+#: src/components/Stem.js:31
+msgid "Interj"
+msgstr ""
+
+#: src/components/Stem.js:35
+msgid "MWE"
+msgstr ""
+
+#: src/components/Stem.js:21
+msgid "N"
+msgstr ""
+
+#: src/components/Stem.js:33
+msgid "Num"
+msgstr ""
+
+#: src/components/Stem.js:32
+msgid "Pcle"
+msgstr ""
+
+#: src/components/Stem.js:29
+msgid "Po"
+msgstr ""
+
+#: src/components/Stem.js:30
+msgid "Pr"
+msgstr ""
+
+#: src/components/Stem.js:25
+msgid "Pron"
 msgstr ""
 
 #: src/components/Source.js:13
@@ -23,4 +79,52 @@ msgstr ""
 
 #: src/containers/AsyncApp.js:60
 msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
+msgstr ""
+
+#: src/components/Stem.js:24
+msgid "V"
+msgstr ""
+
+#: src/components/Stem.js:7
+msgid "eng"
+msgstr ""
+
+#: src/components/Stem.js:8
+msgid "fin"
+msgstr ""
+
+#: src/components/Stem.js:9
+msgid "lat"
+msgstr ""
+
+#: src/components/Stem.js:11
+msgid "nno"
+msgstr ""
+
+#: src/components/Stem.js:10
+msgid "nob"
+msgstr ""
+
+#: src/components/Stem.js:13
+msgid "sma"
+msgstr ""
+
+#: src/components/Stem.js:12
+msgid "sme"
+msgstr ""
+
+#: src/components/Stem.js:14
+msgid "smj"
+msgstr ""
+
+#: src/components/Stem.js:15
+msgid "smn"
+msgstr ""
+
+#: src/components/Stem.js:16
+msgid "sms"
+msgstr ""
+
+#: src/components/Stem.js:17
+msgid "swe"
 msgstr ""

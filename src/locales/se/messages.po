@@ -9,15 +9,71 @@ msgstr ""
 "Language: se\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-11-28 12:35+0100\n"
+"PO-Revision-Date: 2018-12-03 12:52+0100\n"
 "Last-Translator: Børre Gaup <borre.gaup@uit.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
 "Plural-Forms: \n"
 "MIME-Version: 1.0\n"
 
+#: src/components/Stem.js:22
+msgid "A"
+msgstr "Adjektiiva"
+
+#: src/components/Stem.js:34
+msgid "ABBR"
+msgstr ""
+
+#: src/components/Stem.js:28
+msgid "Adp"
+msgstr ""
+
+#: src/components/Stem.js:23
+msgid "Adv"
+msgstr "Adverba"
+
+#: src/components/Stem.js:27
+msgid "CC"
+msgstr ""
+
+#: src/components/Stem.js:26
+msgid "CS"
+msgstr ""
+
 #: src/components/Searcher.js:88
 msgid "Fetching search results …"
 msgstr "Viežžamin ohcanbohtosid …"
+
+#: src/components/Stem.js:31
+msgid "Interj"
+msgstr ""
+
+#: src/components/Stem.js:35
+msgid "MWE"
+msgstr "Dajaldat"
+
+#: src/components/Stem.js:21
+msgid "N"
+msgstr "Substantiiva"
+
+#: src/components/Stem.js:33
+msgid "Num"
+msgstr ""
+
+#: src/components/Stem.js:32
+msgid "Pcle"
+msgstr ""
+
+#: src/components/Stem.js:29
+msgid "Po"
+msgstr ""
+
+#: src/components/Stem.js:30
+msgid "Pr"
+msgstr ""
+
+#: src/components/Stem.js:25
+msgid "Pron"
+msgstr ""
 
 #: src/components/Source.js:13
 msgid "Source: {source}"
@@ -26,3 +82,51 @@ msgstr "Gáldu: {source}"
 #: src/containers/AsyncApp.js:60
 msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
 msgstr "Sámi sátnegirjjit ja tearbmačoakkáldagat maid<0/> <1>Divvun</1>, <2>Giellagáldu</2> ja <3>Giellatekno</3> leat ráhkadan."
+
+#: src/components/Stem.js:24
+msgid "V"
+msgstr "Verba"
+
+#: src/components/Stem.js:7
+msgid "eng"
+msgstr "eŋgelasgiella"
+
+#: src/components/Stem.js:8
+msgid "fin"
+msgstr "suomagiella"
+
+#: src/components/Stem.js:9
+msgid "lat"
+msgstr "latiidnagiella"
+
+#: src/components/Stem.js:11
+msgid "nno"
+msgstr "ođđadárogiella"
+
+#: src/components/Stem.js:10
+msgid "nob"
+msgstr "girjedárogiella"
+
+#: src/components/Stem.js:13
+msgid "sma"
+msgstr "lullisámegiella"
+
+#: src/components/Stem.js:12
+msgid "sme"
+msgstr "davvisámegiella"
+
+#: src/components/Stem.js:14
+msgid "smj"
+msgstr "julevsámegiella"
+
+#: src/components/Stem.js:15
+msgid "smn"
+msgstr "anársámegiella"
+
+#: src/components/Stem.js:16
+msgid "sms"
+msgstr "nuorttalašgiella"
+
+#: src/components/Stem.js:17
+msgid "swe"
+msgstr "ruoŧŧagiella"

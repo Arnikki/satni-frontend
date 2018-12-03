@@ -9,15 +9,71 @@ msgstr ""
 "Language: en\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-11-28 12:29+0100\n"
+"PO-Revision-Date: 2018-12-03 12:50+0100\n"
 "Last-Translator: Børre Gaup <borre.gaup@uit.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
 "Plural-Forms: \n"
 "MIME-Version: 1.0\n"
 
+#: src/components/Stem.js:22
+msgid "A"
+msgstr "Adjective"
+
+#: src/components/Stem.js:34
+msgid "ABBR"
+msgstr ""
+
+#: src/components/Stem.js:28
+msgid "Adp"
+msgstr ""
+
+#: src/components/Stem.js:23
+msgid "Adv"
+msgstr "Adverb"
+
+#: src/components/Stem.js:27
+msgid "CC"
+msgstr ""
+
+#: src/components/Stem.js:26
+msgid "CS"
+msgstr ""
+
 #: src/components/Searcher.js:88
 msgid "Fetching search results …"
 msgstr "Fetching search results …"
+
+#: src/components/Stem.js:31
+msgid "Interj"
+msgstr ""
+
+#: src/components/Stem.js:35
+msgid "MWE"
+msgstr "Multi word expression"
+
+#: src/components/Stem.js:21
+msgid "N"
+msgstr "Noun"
+
+#: src/components/Stem.js:33
+msgid "Num"
+msgstr ""
+
+#: src/components/Stem.js:32
+msgid "Pcle"
+msgstr ""
+
+#: src/components/Stem.js:29
+msgid "Po"
+msgstr ""
+
+#: src/components/Stem.js:30
+msgid "Pr"
+msgstr ""
+
+#: src/components/Stem.js:25
+msgid "Pron"
+msgstr ""
 
 #: src/components/Source.js:13
 msgid "Source: {source}"
@@ -26,3 +82,51 @@ msgstr "Source: {source}"
 #: src/containers/AsyncApp.js:60
 msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
 msgstr "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
+
+#: src/components/Stem.js:24
+msgid "V"
+msgstr "Verb"
+
+#: src/components/Stem.js:7
+msgid "eng"
+msgstr "english"
+
+#: src/components/Stem.js:8
+msgid "fin"
+msgstr "finnish"
+
+#: src/components/Stem.js:9
+msgid "lat"
+msgstr "latin"
+
+#: src/components/Stem.js:11
+msgid "nno"
+msgstr "norwegian nynorsk"
+
+#: src/components/Stem.js:10
+msgid "nob"
+msgstr "norwegian bokmål"
+
+#: src/components/Stem.js:13
+msgid "sma"
+msgstr "south sami"
+
+#: src/components/Stem.js:12
+msgid "sme"
+msgstr "north sami"
+
+#: src/components/Stem.js:14
+msgid "smj"
+msgstr "lule sami"
+
+#: src/components/Stem.js:15
+msgid "smn"
+msgstr "inari sami"
+
+#: src/components/Stem.js:16
+msgid "sms"
+msgstr "skolt sami"
+
+#: src/components/Stem.js:17
+msgid "swe"
+msgstr "swedish"

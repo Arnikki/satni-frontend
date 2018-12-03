@@ -9,20 +9,129 @@ msgstr ""
 "Language: no\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-11-28 13:12+0100\n"
+"PO-Revision-Date: 2018-12-03 19:59+0100\n"
 "Last-Translator: Børre Gaup <borre.gaup@uit.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
 "Plural-Forms: \n"
 "MIME-Version: 1.0\n"
 
+#: src/components/Stem.js:22
+msgid "A"
+msgstr "Adjektiv"
+
+#: src/components/Stem.js:34
+msgid "ABBR"
+msgstr "Forkorting"
+
+#: src/components/Stem.js:28
+msgid "Adp"
+msgstr "Adposisjon"
+
+#: src/components/Stem.js:23
+msgid "Adv"
+msgstr "Adverb"
+
+#: src/components/Stem.js:27
+msgid "CC"
+msgstr ""
+
+#: src/components/Stem.js:26
+msgid "CS"
+msgstr ""
+
 #: src/components/Searcher.js:88
 msgid "Fetching search results …"
 msgstr "Henter søkeresultat …"
+
+#: src/components/Stem.js:31
+msgid "Interj"
+msgstr "Interjeksjon"
+
+#: src/components/Stem.js:35
+msgid "MWE"
+msgstr "Flerordsuttrykk"
+
+#: src/components/Stem.js:21
+msgid "N"
+msgstr "Substantiv"
+
+#: src/components/Stem.js:33
+msgid "Num"
+msgstr "Numeral"
+
+#: src/components/Stem.js:32
+msgid "Pcle"
+msgstr "Partikkel"
+
+#: src/components/Stem.js:29
+msgid "Po"
+msgstr ""
+
+#: src/components/Stem.js:30
+msgid "Pr"
+msgstr ""
+
+#: src/components/Stem.js:25
+msgid "Pron"
+msgstr "Pronomen"
 
 #: src/components/Source.js:13
 msgid "Source: {source}"
 msgstr "Kilde: {source}"
 
 #: src/containers/AsyncApp.js:60
-msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
-msgstr "Samiske ordbøker og termsamlinger fra<0/> <1>Divvun</1>, <2>Giellagáldu</2> og <3>Giellatekno</3>."
+msgid ""
+"Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2>"
+" and <3>Giellatekno</3>"
+msgstr ""
+"Samiske ordbøker og termsamlinger fra<0/> <1>Divvun</1>, <2>Giellagáldu</2>"
+" og <3>Giellatekno</3>."
+
+#: src/components/Stem.js:24
+msgid "V"
+msgstr "Verb"
+
+#: src/components/Stem.js:7
+msgid "eng"
+msgstr "engelsk"
+
+#: src/components/Stem.js:8
+msgid "fin"
+msgstr "finsk"
+
+#: src/components/Stem.js:9
+msgid "lat"
+msgstr "latin"
+
+#: src/components/Stem.js:11
+msgid "nno"
+msgstr "nynorsk"
+
+#: src/components/Stem.js:10
+msgid "nob"
+msgstr "bokmål"
+
+#: src/components/Stem.js:13
+msgid "sma"
+msgstr "sørsamisk"
+
+#: src/components/Stem.js:12
+msgid "sme"
+msgstr "nordsamisk"
+
+#: src/components/Stem.js:14
+msgid "smj"
+msgstr "lulesamisk"
+
+#: src/components/Stem.js:15
+msgid "smn"
+msgstr "inarisamisk"
+
+#: src/components/Stem.js:16
+msgid "sms"
+msgstr "skoltsamisk"
+
+#: src/components/Stem.js:17
+msgid "swe"
+msgstr "svensk"
+
