@@ -9,6 +9,10 @@
 # production
 /build
 
+# lingui
+src/locales/_build/
+src/locales/**/*.js
+
 # misc
 .DS_Store
 .env.local
