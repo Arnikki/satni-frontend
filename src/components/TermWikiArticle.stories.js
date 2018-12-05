@@ -15,3 +15,4 @@ storiesOf('TermWikiArticle', module)
   .add('default', () => <TermWikiArticle
     stems={stems}
     termwikiref='Luonddudieđa ja matematihkka:guolli' />);
+      dictionary='termwiki'
