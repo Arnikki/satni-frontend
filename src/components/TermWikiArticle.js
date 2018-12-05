@@ -1,5 +1,6 @@
 import React from 'react';
 import { css } from 'react-emotion';
+import { Trans } from '@lingui/macro';
 
 import { ArticleDiv } from '../components';
 import Stems from './Stems';
@@ -19,7 +20,7 @@ const TermWikiArticle = ({stems, termwikiref, dictionary}) => {
         ? <a
           href={`https://satni.uit.no/termwiki/index.php?title=${termwikiref}`}
           target='_blank'>
-          This article on the TermWiki
+          <Trans>This article on the TermWiki</Trans>
         </a>
         : <Source source={dictionary} />
         }

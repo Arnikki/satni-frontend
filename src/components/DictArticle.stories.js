@@ -1,4 +1,5 @@
 import React from 'react';
+import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
@@ -17,5 +18,9 @@ const stems = [
 ];
 
 storiesOf('DictArticle', module)
-  .add('default', () => <DictArticle stems={stems} examples={examples} dictionary='smenob' />)
-  .add('without_examples', () => <DictArticle stems={stems} examples={[]} dictionary='smenob' />);
+  .add('default', () => <I18nProvider>
+    <DictArticle stems={stems} examples={examples} dictionary='smenob' />
+  </I18nProvider>)
+  .add('without_examples', () => <I18nProvider>
+    <DictArticle stems={stems} examples={[]} dictionary='smenob' />
+  </I18nProvider>);

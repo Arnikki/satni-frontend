@@ -1,4 +1,5 @@
 import React from 'react';
+import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
@@ -12,4 +13,6 @@ const stems = [
 ];
 
 storiesOf('Stems', module)
-  .add('default', () => <Stems stems={stems} />);
+  .add('default', () => <I18nProvider>
+    <Stems stems={stems} />
+  </I18nProvider>);

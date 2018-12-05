@@ -2937,8 +2937,7 @@ exports[`Storyshots DictArticle default 1`] = `
   <div
     className="css-jxikhn"
   >
-    Source: 
-    smenob
+    Source: smenob
   </div>
 </div>
 `;
@@ -3020,8 +3019,7 @@ exports[`Storyshots DictArticle without_examples 1`] = `
   <div
     className="css-jxikhn"
   >
-    Source: 
-    smenob
+    Source: smenob
   </div>
 </div>
 `;
@@ -4176,8 +4174,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      smenob
+      Source: smenob
     </div>
   </div>
   <div
@@ -4229,8 +4226,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      smefin
+      Source: smefin
     </div>
   </div>
   <div
@@ -4488,8 +4484,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      SD-terms
+      Source: SD-terms
     </div>
   </div>
   <div
@@ -4589,8 +4584,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
       <div
         className="css-jxikhn"
       >
-        Source: 
-        mekanikk-1999
+        Source: mekanikk-1999
       </div>
     </div>
   </div>
@@ -4662,8 +4656,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
       <div
         className="css-jxikhn"
       >
-        Source: 
-        JustermTana
+        Source: JustermTana
       </div>
     </div>
   </div>
@@ -4748,8 +4741,7 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      smenob
+      Source: smenob
     </div>
   </div>
 </div>
@@ -4808,8 +4800,7 @@ exports[`Storyshots PresentArticles DictArticle without examples 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      smefin
+      Source: smefin
     </div>
   </div>
 </div>
@@ -4887,8 +4878,7 @@ exports[`Storyshots PresentArticles Only JustermTana 1`] = `
       <div
         className="css-jxikhn"
       >
-        Source: 
-        JustermTana
+        Source: JustermTana
       </div>
     </div>
   </div>
@@ -5001,8 +4991,7 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      SD-terms
+      Source: SD-terms
     </div>
   </div>
 </div>
@@ -5269,8 +5258,7 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
       <div
         className="css-jxikhn"
       >
-        Source: 
-        mekanikk-1999
+        Source: mekanikk-1999
       </div>
     </div>
   </div>
@@ -5312,8 +5300,7 @@ exports[`Storyshots PresentArticles SDTerm, t is no array 1`] = `
     <div
       className="css-jxikhn"
     >
-      Source: 
-      SD-terms
+      Source: SD-terms
     </div>
   </div>
 </div>
@@ -5395,8 +5382,7 @@ exports[`Storyshots SDTermArticle default 1`] = `
   <div
     className="css-jxikhn"
   >
-    Source: 
-    SD-terms
+    Source: SD-terms
   </div>
 </div>
 `;
@@ -5405,8 +5391,7 @@ exports[`Storyshots Source default 1`] = `
 <div
   className="css-jxikhn"
 >
-  Source: 
-  smenob
+  Source: smenob
 </div>
 `;
 
@@ -5656,11 +5641,12 @@ exports[`Storyshots TermWikiArticle default 1`] = `
   <div
     className="css-jxikhn"
   >
-    <div
-      className="css-jxikhn"
+    <a
+      href="https://satni.uit.no/termwiki/index.php?title=Luonddudieđa ja matematihkka:guolli"
+      target="_blank"
     >
-      Source: 
-    </div>
+      This article on the TermWiki
+    </a>
   </div>
 </div>
 `;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
@@ -12,6 +13,6 @@ const stems = [
 ];
 
 storiesOf('SDTermArticle', module)
-  .add('default', () => <SDTermArticle
-    stems={stems}
-    dictionary='SD-terms' />);
+  .add('default', () => <I18nProvider>
+    <SDTermArticle stems={stems} dictionary='SD-terms' />
+  </I18nProvider>);
