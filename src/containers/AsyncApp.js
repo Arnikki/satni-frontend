@@ -3,69 +3,22 @@ import styled, { css } from 'react-emotion';
 import { Trans } from '@lingui/macro';
 import Searcher from '../components/Searcher';
 import Articles from '../components/Articles';
-import LanguageSwitcher from '../components/LanguageSwitcher';
-
-const MyGrid = styled('div')({
-  margin: 'auto',
-  // You can use @supports with glamor!
-  // So you can use @supports with glamorous as well!
-  '@supports (display: grid)': {
-    display: 'grid',
-    gridGap: 10,
-    gridTemplateAreas: `
-      "header"
-      "content"
-      "footer"
-    `
-  }
-});
-
-const Box = styled('div')({
-  padding: 10,
-  fontSize: '120%'
-});
+import AppBar from '../components/AppBar';
 
 const AsyncApp = ({match}) => (
-  <MyGrid>
-    <Box css={{ gridArea: 'header'}}>
-      <div className={css({
-        fontWeight: 'bold',
-        fontSize: '200%',
-        textAlign: 'center'})}
-      >
-        sátni.org
-      </div>
-      <LanguageSwitcher />
-    </Box>
-    <Box css={{
-      gridArea: 'content',
-      paddingBottom: '50px'
-    }}>
-      <Searcher />
-      {match.params.lemma ?
-        <Articles lemma={match.params.lemma} /> :
-        null
-      }
-    </Box>
-    <Box css={{
-      gridArea: 'footer'
-    }}>
-      <footer className={css({
-        position: 'fixed',
-        left: '0px',
-        bottom: '0px',
-        height: '50px',
-        width: '100%',
-        background: '#999',
-        textAlign: 'center'
-      })}>
-        <Trans>
-          Sámi dictionaries and terms delivered by<br />
-          <a href='http://divvun.no'>Divvun</a>, <a href='http://giella.org'>Giellagáldu</a> and <a href='http://giellatekno.uit.no'>Giellatekno</a>
-        </Trans>
-      </footer>
-    </Box>
-  </MyGrid>
-    );
+  <div>
+    <AppBar />
+    {match.params.lemma ?
+      <Articles lemma={match.params.lemma} /> :
+    null
+  }
+    <footer>
+      <Trans>
+  Sámi dictionaries and terms delivered by<br />
+        <a href='http://divvun.no'>Divvun</a>, <a href='http://giella.org'>Giellagáldu</a> and <a href='http://giellatekno.uit.no'>Giellatekno</a>
+      </Trans>
+    </footer>
+  </div>
+);
 
 export default AsyncApp;

@@ -2,17 +2,25 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { MuiThemeProvider, withStyles } from '@material-ui/core/styles';
 import AsyncApp from './AsyncApp';
 import ErrorBoundary from '../components/ErrorBoundary';
 import I18nLoader from './I18nLoader';
+import withRoot from '../components/withRoot';
 
 const NoMatch = () => <Redirect to='/' />;
 
-const Root = ({ store }) => (
+const styles = theme => ({
+  root: {
+    textAlign: 'center',
+    paddingTop: theme.spacing.unit * 20
+  }
+});
+
+const Root = ({ store, classes }) => (
   <Provider store={store}>
     <I18nLoader>
-      <MuiThemeProvider>
+      <div className={classes.root}>
         <ErrorBoundary>
           <Router>
             <Switch>
@@ -22,13 +30,14 @@ const Root = ({ store }) => (
             </Switch>
           </Router>
         </ErrorBoundary>
-      </MuiThemeProvider>
+      </div>
     </I18nLoader>
   </Provider>
 );
 
 Root.propTypes = {
-  store: PropTypes.object.isRequired
+  store: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
-export default Root;
+export default withRoot(withStyles(styles)(Root));
