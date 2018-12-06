@@ -93,7 +93,6 @@ export const fetchParadigm = (stem) => (dispatch) => {
   dispatch(requestParadigm(stem));
 
   let url = `http://gtweb.uit.no/cgi-bin/smi/smi.cgi?text=${stem.lemma}&pos=${stem.pos}&mode=standard&action=paradigm&lang=${stem.lang}`;
-  console.log(encodeURI(url));
   return fetch(encodeURI(url, {credentials: 'same-origin', mode: 'no-cors'}))
       .then(response => response.text())
       .then(text => dispatch(receiveParadigm(stem, text)));

@@ -3,18 +3,15 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { I18nProvider } from '@lingui/react';
 import AsyncApp from './AsyncApp';
 import ErrorBoundary from '../components/ErrorBoundary';
+import I18nLoader from './I18nLoader';
 
-import catalogSe from './../locales/se/messages.js';
-
-const catalogs = { se: catalogSe };
 const NoMatch = () => <Redirect to='/' />;
 
 const Root = ({ store }) => (
-  <I18nProvider language='se' catalogs={catalogs}>
-    <Provider store={store}>
+  <Provider store={store}>
+    <I18nLoader>
       <MuiThemeProvider>
         <ErrorBoundary>
           <Router>
@@ -26,9 +23,9 @@ const Root = ({ store }) => (
           </Router>
         </ErrorBoundary>
       </MuiThemeProvider>
-    </Provider>
-  </I18nProvider>
-    );
+    </I18nLoader>
+  </Provider>
+);
 
 Root.propTypes = {
   store: PropTypes.object.isRequired

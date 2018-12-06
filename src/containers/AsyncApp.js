@@ -3,6 +3,7 @@ import styled, { css } from 'react-emotion';
 import { Trans } from '@lingui/macro';
 import Searcher from '../components/Searcher';
 import Articles from '../components/Articles';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const MyGrid = styled('div')({
   margin: 'auto',
@@ -30,10 +31,11 @@ const AsyncApp = ({match}) => (
       <div className={css({
         fontWeight: 'bold',
         fontSize: '200%',
-        textAlign: 'center'
-      })}>
-            sátni.org
-          </div>
+        textAlign: 'center'})}
+      >
+        sátni.org
+      </div>
+      <LanguageSwitcher />
     </Box>
     <Box css={{
       gridArea: 'content',

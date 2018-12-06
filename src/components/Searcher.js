@@ -62,7 +62,6 @@ class Searcher extends Component {
                     isOpen,
                     onChange: event => {
                       const value = inHTMLData(event.target.value.toLowerCase());
-                      console.log(value);
                       if (!value || value.length < 3) {
                         return;
                       }

@@ -39,13 +39,17 @@ msgstr ""
 msgid "CS"
 msgstr ""
 
-#: src/components/Searcher.js:88
+#: src/components/Searcher.js:87
 msgid "Fetching search results …"
 msgstr "Henter søkeresultat …"
 
 #: src/components/Stem.js:31
 msgid "Interj"
 msgstr "Interjeksjon"
+
+#: src/components/LanguageSwitcher.js:51
+msgid "Languages"
+msgstr ""
 
 #: src/components/Stem.js:35
 msgid "MWE"
@@ -79,13 +83,13 @@ msgstr "Pronomen"
 msgid "Source: {source}"
 msgstr "Kilde: {source}"
 
-#: src/containers/AsyncApp.js:60
-msgid ""
-"Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2>"
-" and <3>Giellatekno</3>"
+#: src/containers/AsyncApp.js:62
+msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
+msgstr "Samiske ordbøker og termsamlinger fra<0/> <1>Divvun</1>, <2>Giellagáldu</2> og <3>Giellatekno</3>."
+
+#: src/components/TermWikiArticle.js:23
+msgid "This article on the TermWiki"
 msgstr ""
-"Samiske ordbøker og termsamlinger fra<0/> <1>Divvun</1>, <2>Giellagáldu</2>"
-" og <3>Giellatekno</3>."
 
 #: src/components/Stem.js:24
 msgid "V"
@@ -134,4 +138,3 @@ msgstr "skoltsamisk"
 #: src/components/Stem.js:17
 msgid "swe"
 msgstr "svensk"
-

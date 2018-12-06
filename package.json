@@ -50,6 +50,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@lingui/cli": "^2.7.2",
+    "@lingui/loader": "^2.7.2",
     "@lingui/macro": "^2.7.2",
     "@storybook/addon-actions": "^4.0.11",
     "@storybook/addon-links": "^4.0.11",

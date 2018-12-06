@@ -126,8 +126,8 @@ const errorMessage = (state = null, action) => {
 
 const uiLanguage = (state = 'se', action) => {
   switch (action.type) {
-    case 'CHANGE_UI_LANGUAGE':
-      return action.message;
+    case CHANGE_UI_LANGUAGE:
+      return action.languageCode;
     default:
       return state;
   }

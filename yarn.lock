@@ -1412,7 +1412,7 @@
   resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-transform-react/-/babel-plugin-transform-react-2.7.2.tgz#b73ab59673e498ddc1dc74922ae82b01485eb5be"
   integrity sha512-50+GM9LL7V4mB6ekY7hUGmyMLewDQ9bzVXTyRtbTl/78xJoQKSv8Wuz+jlvPcP0fKAFcmcHo3QJPPOkSAbgnOw==
 
-"@lingui/cli@^2.7.2":
+"@lingui/cli@2.7.2", "@lingui/cli@^2.7.2":
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-2.7.2.tgz#d0ba485eb5d8777a72f2410326954914c716a7f5"
   integrity sha512-PdSUALHUyHG7iwwoECWqUlvWjI5jg+9TUWJMgnLyelGi/th6EAdhs/DPxT1uYWQl438hYXLRN61QrPzKtKgZHQ==
@@ -1463,6 +1463,16 @@
     babel-runtime "^6.26.0"
     make-plural "^4.1.1"
     messageformat-parser "^2.0.0"
+
+"@lingui/loader@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@lingui/loader/-/loader-2.7.2.tgz#1205e7e9ff5936243e3c64b1b878d4e7babc1416"
+  integrity sha512-azFwOeRoq1hXjwdikXeRvA1pnxcI1cWYeaV/9Fj+9UF+jqIeCAtdYEj8VlemD9JlOmvyzTNdQ1BdfszYWup9MA==
+  dependencies:
+    "@lingui/cli" "2.7.2"
+    "@lingui/conf" "2.7.2"
+    babel-runtime "^6.26.0"
+    ramda "^0.25.0"
 
 "@lingui/macro@^2.7.2":
   version "2.7.2"

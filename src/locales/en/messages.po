@@ -39,12 +39,16 @@ msgstr ""
 msgid "CS"
 msgstr ""
 
-#: src/components/Searcher.js:88
+#: src/components/Searcher.js:87
 msgid "Fetching search results …"
 msgstr "Fetching search results …"
 
 #: src/components/Stem.js:31
 msgid "Interj"
+msgstr ""
+
+#: src/components/LanguageSwitcher.js:51
+msgid "Languages"
 msgstr ""
 
 #: src/components/Stem.js:35
@@ -79,9 +83,13 @@ msgstr ""
 msgid "Source: {source}"
 msgstr "Source: {source}"
 
-#: src/containers/AsyncApp.js:60
+#: src/containers/AsyncApp.js:62
 msgid "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
 msgstr "Sámi dictionaries and terms delivered by<0/><1>Divvun</1>, <2>Giellagáldu</2> and <3>Giellatekno</3>"
+
+#: src/components/TermWikiArticle.js:23
+msgid "This article on the TermWiki"
+msgstr ""
 
 #: src/components/Stem.js:24
 msgid "V"

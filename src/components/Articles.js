@@ -25,8 +25,6 @@ class Articles extends Component {
       items: []
     };
 
-    console.log('uff', errorMessage, isFetching);
-
     if (errorMessage) {
       return (
         <FetchArticlesError message={errorMessage} />
@@ -36,8 +34,6 @@ class Articles extends Component {
     if (isFetching) {
       return <div>Loading articles …</div>;
     }
-    //
-    console.log(items);
     return <PresentArticles articles={items} />;
   }
 }
