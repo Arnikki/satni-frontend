@@ -2,6 +2,15 @@ import * as actions from './actions';
 import {Set} from 'immutable';
 
 describe('actions', () => {
+  it('should set a language code', () => {
+    const languageCode = 'fi';
+    const expectedAction = {
+      type: actions.CHANGE_UI_LANGUAGE,
+      languageCode
+    };
+    expect(actions.changeUILanguage(languageCode)).toEqual(expectedAction);
+  });
+
   it('should create an action to set the search key', () => {
     const key = 'guo';
     const expectedAction = {

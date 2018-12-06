@@ -13,6 +13,13 @@ export const RECEIVE_ITEMS = 'RECEIVE_ITEMS';
 
 export const FETCH_ARTICLES_ERROR = 'FETCH_ARTICLES_ERROR';
 
+export const CHANGE_UI_LANGUAGE = 'CHANGE_UI_LANGUAGE';
+
+export const changeUILanguage = (languageCode) => ({
+  type: CHANGE_UI_LANGUAGE,
+  languageCode
+});
+
 export const selectKey = (key) => ({
   type: SELECT_KEY,
   key

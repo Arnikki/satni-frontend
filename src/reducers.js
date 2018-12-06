@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 import { OrderedSet, Set } from 'immutable';
 
 import {
+  CHANGE_UI_LANGUAGE,
   SELECT_KEY,
   FETCH_ARTICLES_ERROR,
   FETCH_ARTICLES_REQUEST,
@@ -123,10 +124,20 @@ const errorMessage = (state = null, action) => {
   }
 };
 
+const uiLanguage = (state = 'se', action) => {
+  switch (action.type) {
+    case 'CHANGE_UI_LANGUAGE':
+      return action.message;
+    default:
+      return state;
+  }
+};
+
 const rootReducer = combineReducers({
   articlesByLemma,
   search,
-  errorMessage
+  errorMessage,
+  uiLanguage
 });
 
 export default rootReducer;
