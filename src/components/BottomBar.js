@@ -6,6 +6,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import { Trans } from '@lingui/macro';
 import Typography from '@material-ui/core/Typography';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
 
 const styles = {
   root: {
@@ -14,14 +15,16 @@ const styles = {
 
 const BottomBar = ({ classes }) => (
   <footer className={classes.footer}>
-    <Typography variant='body2' align='center'>
-      <Trans>
+    <BottomNavigation position='static' color='default'>
+      <Typography variant='body2' align='center'>
+        <Trans>
         Sámi dictionaries and terms delivered by<br />
-        <a href='http://divvun.no'>
+          <a href='http://divvun.no'>
         Divvun</a>, <a href='http://giella.org'>
         Giellagáldu</a> and <a href='http://giellatekno.uit.no'>Giellatekno</a>
-      </Trans>
-    </Typography>
+        </Trans>
+      </Typography>
+    </BottomNavigation>
   </footer>
 );
 

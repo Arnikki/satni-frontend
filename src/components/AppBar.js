@@ -36,21 +36,21 @@ const styles = theme => ({
       display: 'block',
     },
   },
-  search: {
-    position: 'relative',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
-    },
-    marginRight: theme.spacing.unit * 2,
-    marginLeft: 0,
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing.unit * 3,
-      width: 'auto',
-    },
-  },
+  // search: {
+  //   position: 'relative',
+  //   borderRadius: theme.shape.borderRadius,
+  //   backgroundColor: fade(theme.palette.common.white, 0.15),
+  //   '&:hover': {
+  //     backgroundColor: fade(theme.palette.common.white, 0.25),
+  //   },
+  //   marginRight: theme.spacing.unit * 2,
+  //   marginLeft: 0,
+  //   width: '100%',
+  //   [theme.breakpoints.up('sm')]: {
+  //     marginLeft: theme.spacing.unit * 3,
+  //     width: 'auto',
+  //   },
+  // },
   sectionDesktop: {
     display: 'none',
     [theme.breakpoints.up('md')]: {
@@ -142,7 +142,7 @@ class PrimarySearchAppBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" color="default">
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
               <MenuIcon />
@@ -154,6 +154,9 @@ class PrimarySearchAppBar extends React.Component {
                   <Searcher />
             </div>
             <div className={classes.grow} />
+            <div>
+              <LanguageSwitcher/>
+            </div>
             <div className={classes.sectionDesktop}>
               <IconButton
                 aria-owns={isMenuOpen ? 'material-appbar' : undefined}
@@ -168,9 +171,6 @@ class PrimarySearchAppBar extends React.Component {
               <IconButton aria-haspopup="true" onClick={this.handleMobileMenuOpen} color="inherit">
                 <MoreIcon />
               </IconButton>
-            </div>
-            <div>
-            <LanguageSwitcher/>
             </div>
           </Toolbar>
         </AppBar>
