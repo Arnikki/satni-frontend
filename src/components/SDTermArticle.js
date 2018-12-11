@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ArticleDiv } from '../components';
+import { ArticleDiv } from './ArticleDiv';
 import Stems from './Stems';
 import Source from './Source';
 

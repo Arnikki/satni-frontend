@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from 'react-emotion';
 import { Trans } from '@lingui/macro';
 
-import { ArticleDiv } from '../components';
+import { ArticleDiv } from './ArticleDiv';
 import Stems from './Stems';
 import Source from './Source';
 
