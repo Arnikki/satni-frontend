@@ -1,17 +1,12 @@
 import React from 'react';
-import { css } from 'react-emotion';
+import Typography from '@material-ui/core/Typography';
 import { Trans } from '@lingui/macro';
 
 const Source = ({source}) => {
   return (
-    <div className={css({
-      textAlign: 'right',
-      marginTop: '1%',
-      paddingBottom: '0',
-      fontSize: '90%'
-    })}>
+    <Typography align='center' variant='body2'>
       <Trans>Source: {source}</Trans>
-    </div>
+    </Typography>
   );
 };
 

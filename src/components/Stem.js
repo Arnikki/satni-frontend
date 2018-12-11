@@ -36,6 +36,7 @@ const partOfSpeech = [
 ];
 
 const Stem = ({ stem: {lemma, pos, lang, key}}) => {
+  const address = `/article/${lemma}`;
   return (
     <div
       className={css({
@@ -43,9 +44,8 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
         key: key
       })}>
       <span className={css({ display: 'inline'})}>{key ? <span className={css({
-        fontWeight: 'bold',
         marginLeft: '8px'
-      })}>{lemma}</span> : lemma} <Trans id={pos} /> <Trans id={lang} /></span>
+      })}><a href={address}>{lemma}</a></span> : lemma} (<Trans id={pos} />) {lang && <Trans id={lang} />}</span>
     </div>
   );
 };

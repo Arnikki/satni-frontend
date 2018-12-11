@@ -7,8 +7,8 @@ import Source from './Source';
 const SDTermArticle = ({stems, dictionary}) => {
   return (
     <ArticleDiv>
-      <Stems stems={stems} />
       <Source source={dictionary} />
+      <Stems stems={stems} />
     </ArticleDiv>
   );
 };
