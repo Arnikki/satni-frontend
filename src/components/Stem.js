@@ -32,23 +32,8 @@ const partOfSpeech = [
   t`Pcle`,
   t`Num`,
   t`ABBR`,
-  t`MWE`,
+  t`MWE`
 ];
-
-const korpLangs = Set.of('sma', 'sme', 'smj', 'smn', 'sms');
-
-const KorpLink = (lang, lemma) => {
-  const searchString = `Search for ${lemma} in Korp`;
-  const korpAddress = (lang !== 'sme' && korpLangs.has(lang))
-                        ? `http://gtweb.uit.no/korp/?mode=${lang}#?search=cqp|[lemma%3D"${lemma}"]`
-                        : `http://gtweb.uit.no/korp/#?search=cqp|[lemma%3D"${lemma}"]`;
-  return (
-    <span className={css({
-      float: 'right',
-      display: 'inline'
-    })}><a href={korpAddress} target='_blank'>{searchString}</a></span>
-  );
-};
 
 const Stem = ({ stem: {lemma, pos, lang, key}}) => {
   return (
@@ -61,7 +46,6 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
         fontWeight: 'bold',
         marginLeft: '2%'
       })}>{lemma}</span> : lemma} <Trans id={pos} /> <Trans id={lang} /></span>
-      {korpLangs.has(lang) && (KorpLink(lang, lemma))}
     </div>
   );
 };

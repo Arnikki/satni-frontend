@@ -13,6 +13,7 @@ function loadStories () {
   require('../src/components/Stem.stories.js');
   require('../src/components/TermWikiArticle.stories.js');
   require('../src/components/VerbParadigm.stories.js');
+  require('../src/components/KorpLinks.stories.js');
 }
 
 configure(loadStories, module);
