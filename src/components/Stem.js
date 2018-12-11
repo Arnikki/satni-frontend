@@ -44,7 +44,7 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
       })}>
       <span className={css({ display: 'inline'})}>{key ? <span className={css({
         fontWeight: 'bold',
-        marginLeft: '2%'
+        marginLeft: '8px'
       })}>{lemma}</span> : lemma} <Trans id={pos} /> <Trans id={lang} /></span>
     </div>
   );
