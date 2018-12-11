@@ -1,15 +1,9 @@
 import React from 'react';
-import styled from 'react-emotion';
+import { styled } from '@material-ui/styles';
+import Paper from '@material-ui/core/Paper';
 
-export const ArticleDiv = styled('div')({
-  borderRadius: '0 0 .28571429rem .28571429rem',
-  borderColor: '#96c8da',
-  borderTopWidth: '1',
-  borderRightWidth: 1,
-  borderBottomWidth: 1,
-  borderLeftWidth: 1,
-  borderStyle: 'solid',
-  marginTop: '2%',
+export const ArticleDiv = styled(Paper)({
+  marginTop: '.5%',
   paddingRight: '5%',
   paddingLeft: '5%',
   paddingTop: '1%',
