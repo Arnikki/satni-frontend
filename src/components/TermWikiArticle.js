@@ -9,16 +9,7 @@ import Source from './Source';
 const TermWikiArticle = ({stems, termwikiref, dictionary}) => {
   return (
     <ArticleDiv>
-      <div>
-        {dictionary === 'termwiki'
-        ? <a
-          href={`https://satni.uit.no/termwiki/index.php?title=${termwikiref}`}
-          target='_blank'>
-          <Typography align='center' variant='body2'><Trans>This article on the TermWiki</Trans></Typography>
-        </a>
-        : <Source source={dictionary} />
-        }
-      </div>
+      <Source source={dictionary} termwikiref={termwikiref} lemma={stems[0].lemma} />
       <Stems stems={stems} />
     </ArticleDiv>
   );
