@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from 'react-emotion';
 import { Set } from 'immutable';
 import { t, Trans } from '@lingui/macro';
+import { Link } from 'react-router-dom';
 
 const languages = [
   t`eng`,
@@ -45,7 +46,7 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
       })}>
       <span className={css({ display: 'inline'})}>{key ? <span className={css({
         marginLeft: '8px'
-      })}><a href={address}>{lemma}</a></span> : lemma} (<Trans id={pos} />) {lang && <Trans id={lang} />}</span>
+      })}><Link to={address}>{lemma}</Link></span> : lemma} (<Trans id={pos} />) {lang && <Trans id={lang} />}</span>
     </div>
   );
 };
