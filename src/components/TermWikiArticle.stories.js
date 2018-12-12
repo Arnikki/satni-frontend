@@ -2,6 +2,7 @@ import React from 'react';
 import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import TermWikiArticle from './TermWikiArticle';
 
@@ -13,9 +14,11 @@ const stems = [
 ];
 
 storiesOf('TermWikiArticle', module)
-  .add('default', () => <I18nProvider>
-    <TermWikiArticle
-      stems={stems}
-      dictionary='termwiki'
-      termwikiref='Luonddudieđa ja matematihkka:guolli' />
-  </I18nProvider>);
+  .add('default', () => <Router>
+    <I18nProvider>
+      <TermWikiArticle
+        stems={stems}
+        dictionary='termwiki'
+        termwikiref='Luonddudieđa ja matematihkka:guolli' />
+    </I18nProvider>
+  </Router>);

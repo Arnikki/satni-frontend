@@ -2,6 +2,7 @@ import React from 'react';
 import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import SDTermArticle from './SDTermArticle';
 
@@ -13,6 +14,8 @@ const stems = [
 ];
 
 storiesOf('SDTermArticle', module)
-  .add('default', () => <I18nProvider>
-    <SDTermArticle stems={stems} dictionary='SD-terms' />
-  </I18nProvider>);
+  .add('default', () => <Router>
+    <I18nProvider>
+      <SDTermArticle stems={stems} dictionary='SD-terms' />
+    </I18nProvider>
+  </Router>);

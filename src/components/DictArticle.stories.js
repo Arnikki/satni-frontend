@@ -2,7 +2,7 @@ import React from 'react';
 import { I18nProvider } from '@lingui/react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import DictArticle from './DictArticle';
 
 const examples = [
@@ -18,9 +18,13 @@ const stems = [
 ];
 
 storiesOf('DictArticle', module)
-  .add('default', () => <I18nProvider>
-    <DictArticle stems={stems} examples={examples} dictionary='smenob' />
-  </I18nProvider>)
-  .add('without_examples', () => <I18nProvider>
-    <DictArticle stems={stems} examples={[]} dictionary='smenob' />
-  </I18nProvider>);
+  .add('default', () => <Router>
+    <I18nProvider>
+      <DictArticle stems={stems} examples={examples} dictionary='smenob' />
+    </I18nProvider>
+  </Router>)
+  .add('without_examples', () => <Router>
+    <I18nProvider>
+      <DictArticle stems={stems} examples={[]} dictionary='smenob' />
+    </I18nProvider>
+  </Router>);
