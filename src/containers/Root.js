@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 
 import AsyncApp from './AsyncApp';
+import Inflection from './Inflection';
 import ErrorBoundary from '../components/ErrorBoundary';
 import I18nLoader from './I18nLoader';
 
@@ -17,6 +18,7 @@ const Root = ({ store }) => (
           <Switch>
             <Route path='/' exact component={AsyncApp} />
             <Route path='/article/:lemma' component={AsyncApp} />
+            <Route path='/inflection/:lemma' component={Inflection} />
             <Route path='*' component={NoMatch} />
           </Switch>
         </Router>
