@@ -48,7 +48,11 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
       })}>
       <span className={css({ display: 'inline'})}>{key ? <span className={css({
         marginLeft: '8px'
-      })}><Link to={address}>{lemma}</Link></span> : lemma} <Tooltip title={<Trans id={pos} />} aria-label={pos}><span>({pos})</span></Tooltip> {lang && <Trans id={lang} />}</span>
+      })}><Link to={address}>{lemma}</Link></span> : lemma} <Tooltip title={<Trans id={pos} />} aria-label={pos}><span>({pos})</span></Tooltip> {lang && <Trans id={lang} />}
+        <Link to={{ pathname: `/inflection/${lemma}`, search: `?lang=${lang}&pos=${pos}`}}>
+          {' '}{lemma}
+        </Link>
+      </span>
     </div>
   );
 };
