@@ -12,7 +12,8 @@ const initialState = {
     'resultItems': OrderedSet()
   },
   errorMessage: null,
-  uiLanguage: 'se'
+  uiLanguage: 'se',
+  paradigmsByKey: {}
 };
 
 describe('reducers', () => {
@@ -34,7 +35,8 @@ describe('reducers', () => {
         'resultItems': OrderedSet()
       },
       errorMessage: null,
-      uiLanguage: 'se'
+      uiLanguage: 'se',
+      paradigmsByKey: {}
     });
   });
 
@@ -51,7 +53,8 @@ describe('reducers', () => {
         'resultItems': OrderedSet()
       },
       errorMessage: null,
-      uiLanguage: 'se'
+      uiLanguage: 'se',
+      paradigmsByKey: {}
     });
   });
 
@@ -96,7 +99,8 @@ describe('reducers', () => {
         )
       },
       errorMessage: null,
-      uiLanguage: 'se'
+      uiLanguage: 'se',
+      paradigmsByKey: {}
     });
   });
 
@@ -127,7 +131,8 @@ describe('reducers', () => {
           'resultItems': OrderedSet()
         },
         errorMessage: null,
-        uiLanguage: 'se'
+        uiLanguage: 'se',
+        paradigmsByKey: {}
       });
   });
 
@@ -229,7 +234,77 @@ describe('reducers', () => {
           'resultItems': OrderedSet()
         },
         errorMessage: null,
-        uiLanguage: 'se'
+        uiLanguage: 'se',
+        paradigmsByKey: {}
+      });
+  });
+
+  it('should handle FETCH_PARADIGM_REQUEST', () => {
+    expect(reducer({
+      articlesByLemma: {},
+      search: {
+        isSearching: false,
+        searchItems: Set(),
+        usedSearchKeys: Set(),
+        'resultItems': OrderedSet()
+      }
+    },
+      {
+        type: actions.FETCH_PARADIGM_REQUEST,
+        lemma: 'guolli',
+        lang: 'sme',
+        pos: 'N'
+      })).toEqual({
+        'articlesByLemma': {},
+        'search': {
+          'isSearching': false,
+          'searchItems': Set(),
+          'usedSearchKeys': Set(),
+          'resultItems': OrderedSet()
+        },
+        errorMessage: null,
+        uiLanguage: 'se',
+        paradigmsByKey: {
+          guolli_sme_N: {
+            isFetching: true,
+            items: ''
+          }
+        }
+      });
+  });
+
+  it('should handle FETCH_PARADIGM_SUCCESS', () => {
+    expect(reducer({
+      paradigmsByKey: {
+        guolli_sme_N: {
+          isFetching: true,
+          items: ''
+        }
+      }
+    },
+      {
+        type: actions.FETCH_PARADIGM_SUCCESS,
+        lemma: 'guolli',
+        lang: 'sme',
+        pos: 'N',
+        paradigm: 'Totally fake answer'
+      })).toEqual({
+        'articlesByLemma': {},
+        'search': {
+          'isSearching': false,
+          'searchItems': Set(),
+          'usedSearchKeys': Set(),
+          'resultItems': OrderedSet(),
+          searchKey: ''
+        },
+        errorMessage: null,
+        uiLanguage: 'se',
+        paradigmsByKey: {
+          guolli_sme_N: {
+            isFetching: false,
+            items: 'Totally fake answer'
+          }
+        }
       });
   });
 });

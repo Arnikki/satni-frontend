@@ -7,6 +7,9 @@ import {
   FETCH_ARTICLES_ERROR,
   FETCH_ARTICLES_REQUEST,
   FETCH_ARTICLES_SUCCESS,
+  FETCH_PARADIGM_ERROR,
+  FETCH_PARADIGM_REQUEST,
+  FETCH_PARADIGM_SUCCESS,
   REQUEST_ITEMS,
   RECEIVE_ITEMS
 } from './actions';
@@ -47,6 +50,42 @@ const articles = (
   }
 };
 
+const paradigm = (
+  state = {
+    isFetching: false,
+    items: ''
+  },
+  action
+) => {
+  switch (action.type) {
+    case FETCH_PARADIGM_REQUEST:
+      return {
+        ...state,
+        ...{
+          isFetching: true
+        }
+      };
+    case FETCH_PARADIGM_SUCCESS:
+      return {
+        ...state,
+        ...{
+          isFetching: false,
+          items: action.paradigm
+        }
+      };
+    case FETCH_PARADIGM_ERROR:
+      return {
+        ...state,
+        ...{
+          isFetching: false,
+          items: ''
+        }
+      };
+    default:
+      return state;
+  }
+};
+
 const articlesByLemma = (state = {}, action) => {
   switch (action.type) {
     case FETCH_ARTICLES_SUCCESS:
@@ -55,6 +94,22 @@ const articlesByLemma = (state = {}, action) => {
         ...state,
         ...{
           [action.lemma]: articles(state[action.lemma], action)
+        }
+      };
+    default:
+      return state;
+  }
+};
+
+const paradigmsByKey = (state = {}, action) => {
+  const key = `${action.lemma}_${action.lang}_${action.pos}`;
+  switch (action.type) {
+    case FETCH_PARADIGM_SUCCESS:
+    case FETCH_PARADIGM_REQUEST:
+      return {
+        ...state,
+        ...{
+          [key]: paradigm(state[key], action)
         }
       };
     default:
@@ -115,9 +170,12 @@ const search = (
 const errorMessage = (state = null, action) => {
   switch (action.type) {
     case 'FETCH_ARTICLES_ERROR':
+    case 'FETCH_PARADIGM_ERROR':
       return action.message;
     case 'FETCH_ARTICLES_REQUEST':
     case 'FETCH_ARTICLES_SUCCESS':
+    case 'FETCH_PARADIGM_REQUEST':
+    case 'FETCH_PARADIGM_SUCCESS':
       return null;
     default:
       return state;
@@ -137,7 +195,8 @@ const rootReducer = combineReducers({
   articlesByLemma,
   search,
   errorMessage,
-  uiLanguage
+  uiLanguage,
+  paradigmsByKey
 });
 
 export default rootReducer;

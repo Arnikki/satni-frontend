@@ -2,16 +2,17 @@ import * as Sentry from '@sentry/browser';
 import fetch from 'cross-fetch';
 import {normaliseArticles, toJson} from './utils';
 
-export const REQUEST_PARADIGM = 'REQUEST_PARADIGM';
+export const FETCH_PARADIGM_REQUEST = 'FETCH_PARADIGM_REQUEST';
 export const FETCH_ARTICLES_REQUEST = 'FETCH_ARTICLES_REQUEST';
 export const REQUEST_ITEMS = 'REQUEST_ITEMS';
 export const SELECT_KEY = 'SELECT_KEY';
 
-export const RECEIVE_PARADIGM = 'RECEIVE_PARADIGM';
+export const FETCH_PARADIGM_SUCCESS = 'FETCH_PARADIGM_SUCCESS';
 export const FETCH_ARTICLES_SUCCESS = 'FETCH_ARTICLES_SUCCESS';
 export const RECEIVE_ITEMS = 'RECEIVE_ITEMS';
 
 export const FETCH_ARTICLES_ERROR = 'FETCH_ARTICLES_ERROR';
+export const FETCH_PARADIGM_ERROR = 'FETCH_PARADIGM_ERROR';
 
 export const CHANGE_UI_LANGUAGE = 'CHANGE_UI_LANGUAGE';
 
@@ -34,9 +35,9 @@ export const requestItems = (key) => ({
   type: REQUEST_ITEMS
 });
 
-export const requestParadigm = (stem) => ({
-  type: REQUEST_PARADIGM,
-  stem
+export const requestParadigm = (lemma, lang, pos) => ({
+  type: FETCH_PARADIGM_REQUEST,
+  lemma, lang, pos
 });
 
 export const receiveArticles = (lemma, json) => ({
@@ -51,9 +52,9 @@ export const receiveItems = (key, json) => ({
   searchItems: json
 });
 
-export const receiveParadigm = (stem, text) => ({
-  type: RECEIVE_PARADIGM,
-  stem,
+export const receiveParadigm = (lemma, lang, pos, text) => ({
+  type: FETCH_PARADIGM_SUCCESS,
+  lemma, lang, pos,
   paradigm: text
 });
 
@@ -89,13 +90,19 @@ const fetchItems = (key) => (dispatch) => {
       .then(text => dispatch(receiveItems(key, toJson(text))));
 };
 
-export const fetchParadigm = (stem) => (dispatch) => {
-  dispatch(requestParadigm(stem));
+export const fetchParadigm = (lemma, lang, pos) => (dispatch) => {
+  dispatch(requestParadigm(lemma, lang, pos));
 
-  let url = `http://gtweb.uit.no/cgi-bin/smi/smi.cgi?text=${stem.lemma}&pos=${stem.pos}&mode=standard&action=paradigm&lang=${stem.lang}`;
-  return fetch(encodeURI(url, {credentials: 'same-origin', mode: 'no-cors'}))
+  let url = `http://gtweb.uit.no/cgi-bin/smi/smi.cgi?text=${lemma}&pos=${pos}&mode=standard&action=paradigm&lang=${lang}`;
+  return fetch(encodeURI(url))
       .then(response => response.text())
-      .then(text => dispatch(receiveParadigm(stem, text)));
+      .then(text => dispatch(receiveParadigm(lemma, lang, pos, text)))
+      .catch(error => {
+        dispatch({
+          type: FETCH_PARADIGM_ERROR,
+          message: `Could not fetch paradigm for ${lemma} ${lang} ${pos}`
+        });
+      });
 };
 
 export const shouldFetchArticles = (state, lemma) => {
@@ -103,6 +110,17 @@ export const shouldFetchArticles = (state, lemma) => {
   if (!lemma ||
     (articles && articles.isFetching) ||
     (articles && !articles.isFetching && articles.items)) {
+    return false;
+  } else {
+    return true;
+  }
+};
+
+export const shouldFetchParadigm = (state, lemma, lang, pos) => {
+  const paradigms = state.paradigmsByKey[`${lemma}_${lang}_${pos}`];
+  if (!lemma ||
+    (paradigms && paradigms.isFetching) ||
+    (paradigms && !paradigms.isFetching && paradigms.items)) {
     return false;
   } else {
     return true;
@@ -128,3 +146,10 @@ export const fetchItemsIfNeeded = (key) => (dispatch, getState) => {
     return dispatch(fetchItems(key));
   }
 };
+
+export const fetchParadigmIfNeeded = (lemma, lang, pos) => (dispatch, getState) => {
+  if (shouldFetchParadigm(getState(), lemma, lang, pos)) {
+    return dispatch(fetchParadigm(lemma, lang, pos));
+  }
+};
+
