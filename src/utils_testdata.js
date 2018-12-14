@@ -1,5 +1,5 @@
 export const resultDictWithExamples = [{
-  translations: [
+  stems: [
     {
       pos: 'N',
       lang: 'sme',
@@ -29,7 +29,7 @@ export const resultDictWithoutExamples = [{
   dict: 'smefin',
   examples: [],
   termwikiref: '-1',
-  translations: [
+  stems: [
     {
       pos: 'N',
       lang: 'sme',
@@ -48,7 +48,7 @@ export const resultAehtjie = [
     dict: 'smanob',
     examples: [],
     termwikiref: '-1',
-    translations: [
+    stems: [
       {
         pos: 'N',
         lang: 'sma',

@@ -26,7 +26,7 @@ const Articles = ({articles}) => {
         if (article.termwikiref === '-1') {
           return <DictArticle
             key={i}
-            stems={article.translations}
+            stems={article.stems}
             examples={article.examples}
             dictionary={article.dict} />;
         }

@@ -2839,6 +2839,11 @@ exports[`Storyshots DictArticle default 1`] = `
 <div
   className="MuiPaper-root-65 MuiPaper-elevation2-69 MuiPaper-rounded-66 StyledComponent-root-1"
 >
+  <span
+    className="MuiTypography-root-92 MuiTypography-caption-102 MuiTypography-alignCenter-106"
+  >
+    smenob
+  </span>
   <div>
     <div
       className="css-1jd5iyo"
@@ -2848,7 +2853,20 @@ exports[`Storyshots DictArticle default 1`] = `
       >
         guolli
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -2860,12 +2878,30 @@ exports[`Storyshots DictArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -2877,12 +2913,30 @@ exports[`Storyshots DictArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         nob
       </span>
@@ -2890,7 +2944,7 @@ exports[`Storyshots DictArticle default 1`] = `
   </div>
   <div>
     <div
-      className="css-1marblh"
+      className="css-1yjflhe"
     >
       <div>
         original0
@@ -2902,7 +2956,7 @@ exports[`Storyshots DictArticle default 1`] = `
       </div>
     </div>
     <div
-      className="css-1marblh"
+      className="css-1yjflhe"
     >
       <div>
         original1
@@ -2914,18 +2968,18 @@ exports[`Storyshots DictArticle default 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="css-jxikhn"
-  >
-    Source: smenob
-  </div>
 </div>
 `;
 
 exports[`Storyshots DictArticle without_examples 1`] = `
 <div
-  className="MuiPaper-root-92 MuiPaper-elevation2-96 MuiPaper-rounded-93 StyledComponent-root-2"
+  className="MuiPaper-root-125 MuiPaper-elevation2-129 MuiPaper-rounded-126 StyledComponent-root-2"
 >
+  <span
+    className="MuiTypography-root-152 MuiTypography-caption-162 MuiTypography-alignCenter-166"
+  >
+    smenob
+  </span>
   <div>
     <div
       className="css-1jd5iyo"
@@ -2935,7 +2989,20 @@ exports[`Storyshots DictArticle without_examples 1`] = `
       >
         guolli
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -2947,12 +3014,30 @@ exports[`Storyshots DictArticle without_examples 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -2964,29 +3049,42 @@ exports[`Storyshots DictArticle without_examples 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         nob
       </span>
     </div>
   </div>
   <div />
-  <div
-    className="css-jxikhn"
-  >
-    Source: smenob
-  </div>
 </div>
 `;
 
 exports[`Storyshots Example default 1`] = `
 <div
-  className="css-1marblh"
+  className="css-1yjflhe"
 >
   <div>
     original
@@ -3002,7 +3100,7 @@ exports[`Storyshots Example default 1`] = `
 exports[`Storyshots Examples default 1`] = `
 <div>
   <div
-    className="css-1marblh"
+    className="css-1yjflhe"
   >
     <div>
       original0
@@ -3014,7 +3112,7 @@ exports[`Storyshots Examples default 1`] = `
     </div>
   </div>
   <div
-    className="css-1marblh"
+    className="css-1yjflhe"
   >
     <div>
       original1
@@ -3030,21 +3128,21 @@ exports[`Storyshots Examples default 1`] = `
 
 exports[`Storyshots KorpLinks default 1`] = `
 <div
-  className="MuiPaper-root-469 MuiPaper-elevation2-473 MuiPaper-rounded-470"
+  className="MuiPaper-root-926 MuiPaper-elevation2-930 MuiPaper-rounded-927"
 >
   <aside
-    className="MuiTypography-root-496 MuiTypography-body2-504"
+    className="MuiTypography-root-953 MuiTypography-body2-961"
   >
     Korp findings
   </aside>
   <ul
-    className="MuiList-root-522 MuiList-padding-523"
+    className="MuiList-root-979 MuiList-padding-980"
   >
     <div
-      className="MuiListItemText-root-526"
+      className="MuiListItemText-root-983"
     >
       <span
-        className="MuiTypography-root-496 MuiTypography-subheading-503 MuiListItemText-primary-529"
+        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
       >
         <a
           href="http://gtweb.uit.no/korp/#?search=cqp|[lemma%3D\\"guolli\\"]"
@@ -3055,10 +3153,10 @@ exports[`Storyshots KorpLinks default 1`] = `
       </span>
     </div>
     <div
-      className="MuiListItemText-root-526"
+      className="MuiListItemText-root-983"
     >
       <span
-        className="MuiTypography-root-496 MuiTypography-subheading-503 MuiListItemText-primary-529"
+        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
       >
         <a
           href="http://gtweb.uit.no/korp/?mode=smj#?search=cqp|[lemma%3D\\"guolle\\"]"
@@ -3069,10 +3167,10 @@ exports[`Storyshots KorpLinks default 1`] = `
       </span>
     </div>
     <div
-      className="MuiListItemText-root-526"
+      className="MuiListItemText-root-983"
     >
       <span
-        className="MuiTypography-root-496 MuiTypography-subheading-503 MuiListItemText-primary-529"
+        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
       >
         <a
           href="http://gtweb.uit.no/korp/?mode=smn#?search=cqp|[lemma%3D\\"kyele\\"]"
@@ -3088,48 +3186,48 @@ exports[`Storyshots KorpLinks default 1`] = `
 
 exports[`Storyshots NounParadigm Inari saami noun 1`] = `
 <table
-  className="MuiTable-root-167"
+  className="MuiTable-root-233"
 >
   <thead
-    className="MuiTableHead-root-168"
+    className="MuiTableHead-root-234"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-169 MuiTableCell-head-170"
+      className="MuiTableCell-root-235 MuiTableCell-head-236"
       scope="col"
     >
        
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-169 MuiTableCell-head-170"
+      className="MuiTableCell-root-235 MuiTableCell-head-236"
       scope="col"
     >
       Sg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-169 MuiTableCell-head-170"
+      className="MuiTableCell-root-235 MuiTableCell-head-236"
       scope="col"
     >
       Pl
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-177"
+    className="MuiTableBody-root-243"
   >
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Nom
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyeli
@@ -3137,7 +3235,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyeleh
@@ -3145,17 +3243,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Gen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyele
@@ -3163,7 +3261,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolij
@@ -3171,17 +3269,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Acc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyele
@@ -3189,7 +3287,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijd
@@ -3197,17 +3295,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Ill
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuálán
@@ -3215,7 +3313,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijd
@@ -3223,17 +3321,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Loc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyeleest
@@ -3241,7 +3339,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijn
@@ -3249,17 +3347,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Com
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijn
@@ -3267,7 +3365,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijguin
@@ -3278,17 +3376,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Abe
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kyelettáá
@@ -3296,7 +3394,7 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         <div>
           kuolijttáá
@@ -3304,17 +3402,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Par
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
         colSpan={2}
       >
         <div>
@@ -3323,17 +3421,17 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-178"
+      className="MuiTableRow-root-244"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
       >
         Ess
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-169 MuiTableCell-body-171"
+        className="MuiTableCell-root-235 MuiTableCell-body-237"
         colSpan={2}
       >
         <div>
@@ -3347,48 +3445,48 @@ exports[`Storyshots NounParadigm Inari saami noun 1`] = `
 
 exports[`Storyshots NounParadigm Lule saami noun 1`] = `
 <table
-  className="MuiTable-root-151"
+  className="MuiTable-root-217"
 >
   <thead
-    className="MuiTableHead-root-152"
+    className="MuiTableHead-root-218"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-153 MuiTableCell-head-154"
+      className="MuiTableCell-root-219 MuiTableCell-head-220"
       scope="col"
     >
        
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-153 MuiTableCell-head-154"
+      className="MuiTableCell-root-219 MuiTableCell-head-220"
       scope="col"
     >
       Sg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-153 MuiTableCell-head-154"
+      className="MuiTableCell-root-219 MuiTableCell-head-220"
       scope="col"
     >
       Pl
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-161"
+    className="MuiTableBody-root-227"
   >
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Nom
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolle
@@ -3396,7 +3494,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guole
@@ -3404,17 +3502,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Gen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guole
@@ -3422,7 +3520,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolij
@@ -3430,17 +3528,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Acc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolev
@@ -3448,7 +3546,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijt
@@ -3456,17 +3554,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Ill
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolláj
@@ -3474,7 +3572,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijda
@@ -3482,17 +3580,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Ine
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolen
@@ -3500,7 +3598,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijn
@@ -3508,17 +3606,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Ela
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guoles
@@ -3526,7 +3624,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijs
@@ -3534,17 +3632,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Com
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijn
@@ -3555,7 +3653,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolij
@@ -3563,17 +3661,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Abe
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guoledagá
@@ -3584,7 +3682,7 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         <div>
           guolijdagá
@@ -3595,17 +3693,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Abe
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
         colSpan={2}
       >
         <div>
@@ -3617,17 +3715,17 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-162"
+      className="MuiTableRow-root-228"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
       >
         Ess
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-153 MuiTableCell-body-155"
+        className="MuiTableCell-root-219 MuiTableCell-body-221"
         colSpan={2}
       >
         <div>
@@ -3641,48 +3739,48 @@ exports[`Storyshots NounParadigm Lule saami noun 1`] = `
 
 exports[`Storyshots NounParadigm North saami noun 1`] = `
 <table
-  className="MuiTable-root-135"
+  className="MuiTable-root-201"
 >
   <thead
-    className="MuiTableHead-root-136"
+    className="MuiTableHead-root-202"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-137 MuiTableCell-head-138"
+      className="MuiTableCell-root-203 MuiTableCell-head-204"
       scope="col"
     >
        
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-137 MuiTableCell-head-138"
+      className="MuiTableCell-root-203 MuiTableCell-head-204"
       scope="col"
     >
       Sg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-137 MuiTableCell-head-138"
+      className="MuiTableCell-root-203 MuiTableCell-head-204"
       scope="col"
     >
       Pl
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-145"
+    className="MuiTableBody-root-211"
   >
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Nom
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guolli
@@ -3690,7 +3788,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guolit
@@ -3698,17 +3796,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Gen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guole
@@ -3719,7 +3817,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliid
@@ -3727,17 +3825,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Acc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guoli
@@ -3745,7 +3843,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliid
@@ -3753,17 +3851,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Ill
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guollái
@@ -3771,7 +3869,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliide
@@ -3779,17 +3877,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Loc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guolis
@@ -3797,7 +3895,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliin
@@ -3805,17 +3903,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Com
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliin
@@ -3823,7 +3921,7 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         <div>
           guliiguin
@@ -3831,17 +3929,17 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-146"
+      className="MuiTableRow-root-212"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
       >
         Ess
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-137 MuiTableCell-body-139"
+        className="MuiTableCell-root-203 MuiTableCell-body-205"
         colSpan={2}
       >
         <div>
@@ -3855,48 +3953,48 @@ exports[`Storyshots NounParadigm North saami noun 1`] = `
 
 exports[`Storyshots NounParadigm South saami noun 1`] = `
 <table
-  className="MuiTable-root-119"
+  className="MuiTable-root-185"
 >
   <thead
-    className="MuiTableHead-root-120"
+    className="MuiTableHead-root-186"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-121 MuiTableCell-head-122"
+      className="MuiTableCell-root-187 MuiTableCell-head-188"
       scope="col"
     >
        
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-121 MuiTableCell-head-122"
+      className="MuiTableCell-root-187 MuiTableCell-head-188"
       scope="col"
     >
       Sg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-121 MuiTableCell-head-122"
+      className="MuiTableCell-root-187 MuiTableCell-head-188"
       scope="col"
     >
       Pl
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-129"
+    className="MuiTableBody-root-195"
   >
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Nom
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           guelie
@@ -3904,7 +4002,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           guelieh
@@ -3912,17 +4010,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Gen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           guelien
@@ -3930,7 +4028,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gööli
@@ -3941,17 +4039,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Acc
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gueliem
@@ -3959,7 +4057,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           göölide
@@ -3970,17 +4068,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Ill
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gualan
@@ -3988,7 +4086,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           göölide
@@ -3999,17 +4097,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Ine
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           guelesne
@@ -4017,7 +4115,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gööline
@@ -4028,17 +4126,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Ela
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gueleste
@@ -4046,7 +4144,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           göölijste
@@ -4057,17 +4155,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Com
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gööline
@@ -4078,7 +4176,7 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         <div>
           gööligujmie
@@ -4089,17 +4187,17 @@ exports[`Storyshots NounParadigm South saami noun 1`] = `
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-130"
+      className="MuiTableRow-root-196"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
       >
         Ess
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-121 MuiTableCell-body-123"
+        className="MuiTableCell-root-187 MuiTableCell-body-189"
         colSpan={2}
       >
         <div>
@@ -4119,8 +4217,13 @@ exports[`Storyshots PresentArticles All types 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      smenob
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4130,9 +4233,22 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           oainnáhus
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4142,20 +4258,38 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            syn
+            <a
+              href="/article/syn"
+              onClick={[Function]}
+            >
+              syn
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
     </div>
     <div>
       <div
-        className="css-1marblh"
+        className="css-1yjflhe"
       >
         <div>
           Iskkan sihkkut váivves oainnáhusa iežan čalmmiin, muhto dat liikká čuovvu mu.
@@ -4167,7 +4301,7 @@ exports[`Storyshots PresentArticles All types 1`] = `
         </div>
       </div>
       <div
-        className="css-1marblh"
+        className="css-1yjflhe"
       >
         <div>
           Lean áidna vilges olmmoš ja dieđusge oainnáhus.
@@ -4179,15 +4313,15 @@ exports[`Storyshots PresentArticles All types 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className="css-jxikhn"
-    >
-      Source: smenob
-    </div>
   </div>
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      smefin
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4197,9 +4331,22 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           guolladat
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4209,27 +4356,45 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            kalvoin verkonkudonnassa
+            <a
+              href="/article/kalvoin verkonkudonnassa"
+              onClick={[Function]}
+            >
+              kalvoin verkonkudonnassa
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
     </div>
     <div />
-    <div
-      className="css-jxikhn"
-    >
-      Source: smefin
-    </div>
   </div>
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      termwiki
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4239,9 +4404,22 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           androgyn
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4251,14 +4429,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyne
+            <a
+              href="/article/androgyne"
+              onClick={[Function]}
+            >
+              androgyne
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          eng
+          eŋgelasgiella
         </span>
       </div>
       <div
@@ -4268,14 +4464,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgynlâšvuotâ
+            <a
+              href="/article/androgynlâšvuotâ"
+              onClick={[Function]}
+            >
+              androgynlâšvuotâ
+            </a>
           </span>
            
-          A
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            A
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4285,13 +4499,31 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgynvuotâ
+            <a
+              href="/article/androgynvuotâ"
+              onClick={[Function]}
+            >
+              androgynvuotâ
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4301,14 +4533,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyna
+            <a
+              href="/article/androgyna"
+              onClick={[Function]}
+            >
+              androgyna
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4318,31 +4568,44 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyyni
+            <a
+              href="/article/androgyyni"
+              onClick={[Function]}
+            >
+              androgyyni
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
     </div>
-    <div
-      className="css-jxikhn"
-    >
-      <a
-        href="https://satni.uit.no/termwiki/index.php?title=Servodatdieđa:androgyna"
-        target="_blank"
-      >
-        This article on the TermWiki
-      </a>
-    </div>
   </div>
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      SD-terms
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4352,9 +4615,22 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           gođđinmuorra
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4364,14 +4640,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            guolládat
+            <a
+              href="/article/guolládat"
+              onClick={[Function]}
+            >
+              guolládat
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4381,14 +4675,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            guolla
+            <a
+              href="/article/guolla"
+              onClick={[Function]}
+            >
+              guolla
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4398,26 +4710,44 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            målepinne
+            <a
+              href="/article/målepinne"
+              onClick={[Function]}
+            >
+              målepinne
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
     </div>
-    <div
-      className="css-jxikhn"
-    >
-      Source: SD-terms
-    </div>
   </div>
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      mekanikk-1999
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4427,8 +4757,21 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           traktor
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          swe
+          ruoŧŧagiella
         </span>
       </div>
       <div
@@ -4438,13 +4781,31 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktor
+            <a
+              href="/article/traktor"
+              onClick={[Function]}
+            >
+              traktor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
       <div
@@ -4454,13 +4815,31 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktor
+            <a
+              href="/article/traktor"
+              onClick={[Function]}
+            >
+              traktor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4470,13 +4849,31 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktori
+            <a
+              href="/article/traktori"
+              onClick={[Function]}
+            >
+              traktori
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
       <div
@@ -4486,29 +4883,43 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            tractor
+            <a
+              href="/article/tractor"
+              onClick={[Function]}
+            >
+              tractor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          eng
+          eŋgelasgiella
         </span>
-      </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      <div
-        className="css-jxikhn"
-      >
-        Source: mekanikk-1999
       </div>
     </div>
   </div>
   <div
-    className="MuiPaper-root-372 MuiPaper-elevation2-376 MuiPaper-rounded-373 StyledComponent-root-10"
+    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
   >
+    <span
+      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+    >
+      JustermTana
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4518,9 +4929,22 @@ exports[`Storyshots PresentArticles All types 1`] = `
         >
           unngå
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
       <div
@@ -4530,14 +4954,32 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            garvit
+            <a
+              href="/article/garvit"
+              onClick={[Function]}
+            >
+              garvit
+            </a>
           </span>
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4547,24 +4989,33 @@ exports[`Storyshots PresentArticles All types 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            välttää
+            <a
+              href="/article/välttää"
+              onClick={[Function]}
+            >
+              välttää
+            </a>
           </span>
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
-      </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      <div
-        className="css-jxikhn"
-      >
-        Source: JustermTana
       </div>
     </div>
   </div>
@@ -4576,8 +5027,13 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-183 MuiPaper-elevation2-187 MuiPaper-rounded-184 StyledComponent-root-3"
+    className="MuiPaper-root-249 MuiPaper-elevation2-253 MuiPaper-rounded-250 StyledComponent-root-3"
   >
+    <span
+      className="MuiTypography-root-276 MuiTypography-caption-286 MuiTypography-alignCenter-290"
+    >
+      smenob
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4587,9 +5043,22 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
         >
           oainnáhus
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4599,20 +5068,38 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            syn
+            <a
+              href="/article/syn"
+              onClick={[Function]}
+            >
+              syn
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
     </div>
     <div>
       <div
-        className="css-1marblh"
+        className="css-1yjflhe"
       >
         <div>
           Iskkan sihkkut váivves oainnáhusa iežan čalmmiin, muhto dat liikká čuovvu mu.
@@ -4624,7 +5111,7 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
         </div>
       </div>
       <div
-        className="css-1marblh"
+        className="css-1yjflhe"
       >
         <div>
           Lean áidna vilges olmmoš ja dieđusge oainnáhus.
@@ -4636,11 +5123,6 @@ exports[`Storyshots PresentArticles DictArticle with examples 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className="css-jxikhn"
-    >
-      Source: smenob
-    </div>
   </div>
 </div>
 `;
@@ -4650,8 +5132,13 @@ exports[`Storyshots PresentArticles DictArticle without examples 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-210 MuiPaper-elevation2-214 MuiPaper-rounded-211 StyledComponent-root-4"
+    className="MuiPaper-root-309 MuiPaper-elevation2-313 MuiPaper-rounded-310 StyledComponent-root-4"
   >
+    <span
+      className="MuiTypography-root-336 MuiTypography-caption-346 MuiTypography-alignCenter-350"
+    >
+      smefin
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4661,9 +5148,22 @@ exports[`Storyshots PresentArticles DictArticle without examples 1`] = `
         >
           guolladat
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4673,23 +5173,36 @@ exports[`Storyshots PresentArticles DictArticle without examples 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            kalvoin verkonkudonnassa
+            <a
+              href="/article/kalvoin verkonkudonnassa"
+              onClick={[Function]}
+            >
+              kalvoin verkonkudonnassa
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
     </div>
     <div />
-    <div
-      className="css-jxikhn"
-    >
-      Source: smefin
-    </div>
   </div>
 </div>
 `;
@@ -4699,8 +5212,13 @@ exports[`Storyshots PresentArticles Only JustermTana 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-345 MuiPaper-elevation2-349 MuiPaper-rounded-346 StyledComponent-root-9"
+    className="MuiPaper-root-609 MuiPaper-elevation2-613 MuiPaper-rounded-610 StyledComponent-root-9"
   >
+    <span
+      className="MuiTypography-root-636 MuiTypography-caption-646 MuiTypography-alignCenter-650"
+    >
+      JustermTana
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4710,9 +5228,22 @@ exports[`Storyshots PresentArticles Only JustermTana 1`] = `
         >
           unngå
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
       <div
@@ -4722,14 +5253,32 @@ exports[`Storyshots PresentArticles Only JustermTana 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            garvit
+            <a
+              href="/article/garvit"
+              onClick={[Function]}
+            >
+              garvit
+            </a>
           </span>
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4739,24 +5288,33 @@ exports[`Storyshots PresentArticles Only JustermTana 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            välttää
+            <a
+              href="/article/välttää"
+              onClick={[Function]}
+            >
+              välttää
+            </a>
           </span>
            
-          v
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            v
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
-      </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      <div
-        className="css-jxikhn"
-      >
-        Source: JustermTana
       </div>
     </div>
   </div>
@@ -4768,8 +5326,13 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-264 MuiPaper-elevation2-268 MuiPaper-rounded-265 StyledComponent-root-6"
+    className="MuiPaper-root-429 MuiPaper-elevation2-433 MuiPaper-rounded-430 StyledComponent-root-6"
   >
+    <span
+      className="MuiTypography-root-456 MuiTypography-caption-466 MuiTypography-alignCenter-470"
+    >
+      SD-terms
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4779,9 +5342,22 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
         >
           gođđinmuorra
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4791,14 +5367,32 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            guolládat
+            <a
+              href="/article/guolládat"
+              onClick={[Function]}
+            >
+              guolládat
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4808,14 +5402,32 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            guolla
+            <a
+              href="/article/guolla"
+              onClick={[Function]}
+            >
+              guolla
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4825,21 +5437,34 @@ exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            målepinne
+            <a
+              href="/article/målepinne"
+              onClick={[Function]}
+            >
+              målepinne
+            </a>
           </span>
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      Source: SD-terms
     </div>
   </div>
 </div>
@@ -4850,8 +5475,13 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-237 MuiPaper-elevation2-241 MuiPaper-rounded-238 StyledComponent-root-5"
+    className="MuiPaper-root-369 MuiPaper-elevation2-373 MuiPaper-rounded-370 StyledComponent-root-5"
   >
+    <span
+      className="MuiTypography-root-396 MuiTypography-caption-406 MuiTypography-alignCenter-410"
+    >
+      termwiki
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4861,9 +5491,22 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
         >
           androgyn
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4873,14 +5516,32 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyne
+            <a
+              href="/article/androgyne"
+              onClick={[Function]}
+            >
+              androgyne
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          eng
+          eŋgelasgiella
         </span>
       </div>
       <div
@@ -4890,14 +5551,32 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgynlâšvuotâ
+            <a
+              href="/article/androgynlâšvuotâ"
+              onClick={[Function]}
+            >
+              androgynlâšvuotâ
+            </a>
           </span>
            
-          A
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            A
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4907,13 +5586,31 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgynvuotâ
+            <a
+              href="/article/androgynvuotâ"
+              onClick={[Function]}
+            >
+              androgynvuotâ
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          smn
+          anársámegiella
         </span>
       </div>
       <div
@@ -4923,14 +5620,32 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyna
+            <a
+              href="/article/androgyna"
+              onClick={[Function]}
+            >
+              androgyna
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -4940,26 +5655,34 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            androgyyni
+            <a
+              href="/article/androgyyni"
+              onClick={[Function]}
+            >
+              androgyyni
+            </a>
           </span>
            
-          N
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            N
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      <a
-        href="https://satni.uit.no/termwiki/index.php?title=Servodatdieđa:androgyna"
-        target="_blank"
-      >
-        This article on the TermWiki
-      </a>
     </div>
   </div>
 </div>
@@ -4970,8 +5693,13 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-318 MuiPaper-elevation2-322 MuiPaper-rounded-319 StyledComponent-root-8"
+    className="MuiPaper-root-549 MuiPaper-elevation2-553 MuiPaper-rounded-550 StyledComponent-root-8"
   >
+    <span
+      className="MuiTypography-root-576 MuiTypography-caption-586 MuiTypography-alignCenter-590"
+    >
+      mekanikk-1999
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -4981,8 +5709,21 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
         >
           traktor
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          swe
+          ruoŧŧagiella
         </span>
       </div>
       <div
@@ -4992,13 +5733,31 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktor
+            <a
+              href="/article/traktor"
+              onClick={[Function]}
+            >
+              traktor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          nob
+          girjedárogiella
         </span>
       </div>
       <div
@@ -5008,13 +5767,31 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktor
+            <a
+              href="/article/traktor"
+              onClick={[Function]}
+            >
+              traktor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
       <div
@@ -5024,13 +5801,31 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            traktori
+            <a
+              href="/article/traktori"
+              onClick={[Function]}
+            >
+              traktori
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          fin
+          suomagiella
         </span>
       </div>
       <div
@@ -5040,23 +5835,32 @@ exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
           className="css-6n7j50"
         >
           <span
-            className="css-1xbsv2t"
+            className="css-1isemmb"
           >
-            tractor
+            <a
+              href="/article/tractor"
+              onClick={[Function]}
+            >
+              tractor
+            </a>
           </span>
            
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            )
+          </span>
            
-          eng
+          eŋgelasgiella
         </span>
-      </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      <div
-        className="css-jxikhn"
-      >
-        Source: mekanikk-1999
       </div>
     </div>
   </div>
@@ -5068,8 +5872,13 @@ exports[`Storyshots PresentArticles SDTerm, t is no array 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-291 MuiPaper-elevation2-295 MuiPaper-rounded-292 StyledComponent-root-7"
+    className="MuiPaper-root-489 MuiPaper-elevation2-493 MuiPaper-rounded-490 StyledComponent-root-7"
   >
+    <span
+      className="MuiTypography-root-516 MuiTypography-caption-526 MuiTypography-alignCenter-530"
+    >
+      SD-terms
+    </span>
     <div>
       <div
         className="css-1jd5iyo"
@@ -5079,16 +5888,24 @@ exports[`Storyshots PresentArticles SDTerm, t is no array 1`] = `
         >
           fordel
            
-          S
+          <span
+            aria-describedby={null}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            title={null}
+          >
+            (
+            S
+            )
+          </span>
            
-          sme
+          davvisámegiella
         </span>
       </div>
-    </div>
-    <div
-      className="css-jxikhn"
-    >
-      Source: SD-terms
     </div>
   </div>
 </div>
@@ -5096,8 +5913,13 @@ exports[`Storyshots PresentArticles SDTerm, t is no array 1`] = `
 
 exports[`Storyshots SDTermArticle default 1`] = `
 <div
-  className="MuiPaper-root-399 MuiPaper-elevation2-403 MuiPaper-rounded-400 StyledComponent-root-11"
+  className="MuiPaper-root-729 MuiPaper-elevation2-733 MuiPaper-rounded-730 StyledComponent-root-11"
 >
+  <span
+    className="MuiTypography-root-756 MuiTypography-caption-766 MuiTypography-alignCenter-770"
+  >
+    SD-terms
+  </span>
   <div>
     <div
       className="css-1jd5iyo"
@@ -5107,7 +5929,20 @@ exports[`Storyshots SDTermArticle default 1`] = `
       >
         guolli
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -5119,12 +5954,30 @@ exports[`Storyshots SDTermArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -5136,31 +5989,44 @@ exports[`Storyshots SDTermArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         nob
       </span>
     </div>
   </div>
-  <div
-    className="css-jxikhn"
-  >
-    Source: SD-terms
-  </div>
 </div>
 `;
 
 exports[`Storyshots Source default 1`] = `
-<div
-  className="css-jxikhn"
+<span
+  className="MuiTypography-root-789 MuiTypography-caption-799 MuiTypography-alignCenter-803"
 >
-  Source: smenob
-</div>
+  smenob
+</span>
 `;
 
 exports[`Storyshots Stem default 1`] = `
@@ -5172,7 +6038,20 @@ exports[`Storyshots Stem default 1`] = `
   >
     guolli
      
-    N
+    <span
+      aria-describedby={null}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      title={null}
+    >
+      (
+      N
+      )
+    </span>
      
     sme
   </span>
@@ -5187,12 +6066,30 @@ exports[`Storyshots Stem key_nonzero 1`] = `
     className="css-6n7j50"
   >
     <span
-      className="css-1xbsv2t"
+      className="css-1isemmb"
     >
-      guolli
+      <a
+        href="/article/guolli"
+        onClick={[Function]}
+      >
+        guolli
+      </a>
     </span>
      
-    N
+    <span
+      aria-describedby={null}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      title={null}
+    >
+      (
+      N
+      )
+    </span>
      
     sme
   </span>
@@ -5208,7 +6105,20 @@ exports[`Storyshots Stem lang_nonsme 1`] = `
   >
     guolli
      
-    N
+    <span
+      aria-describedby={null}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      title={null}
+    >
+      (
+      N
+      )
+    </span>
      
     smj
   </span>
@@ -5224,7 +6134,20 @@ exports[`Storyshots Stem non_sami 1`] = `
   >
     guolli
      
-    N
+    <span
+      aria-describedby={null}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      title={null}
+    >
+      (
+      N
+      )
+    </span>
      
     nob
   </span>
@@ -5241,7 +6164,20 @@ exports[`Storyshots Stems default 1`] = `
     >
       guolli
        
-      N
+      <span
+        aria-describedby={null}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        title={null}
+      >
+        (
+        N
+        )
+      </span>
        
       sme
     </span>
@@ -5253,12 +6189,30 @@ exports[`Storyshots Stems default 1`] = `
       className="css-6n7j50"
     >
       <span
-        className="css-1xbsv2t"
+        className="css-1isemmb"
       >
-        guolli
+        <a
+          href="/article/guolli"
+          onClick={[Function]}
+        >
+          guolli
+        </a>
       </span>
        
-      N
+      <span
+        aria-describedby={null}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        title={null}
+      >
+        (
+        N
+        )
+      </span>
        
       sme
     </span>
@@ -5270,12 +6224,30 @@ exports[`Storyshots Stems default 1`] = `
       className="css-6n7j50"
     >
       <span
-        className="css-1xbsv2t"
+        className="css-1isemmb"
       >
-        guolli
+        <a
+          href="/article/guolli"
+          onClick={[Function]}
+        >
+          guolli
+        </a>
       </span>
        
-      N
+      <span
+        aria-describedby={null}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        title={null}
+      >
+        (
+        N
+        )
+      </span>
        
       nob
     </span>
@@ -5285,8 +6257,13 @@ exports[`Storyshots Stems default 1`] = `
 
 exports[`Storyshots TermWikiArticle default 1`] = `
 <div
-  className="MuiPaper-root-426 MuiPaper-elevation2-430 MuiPaper-rounded-427 StyledComponent-root-12"
+  className="MuiPaper-root-850 MuiPaper-elevation2-854 MuiPaper-rounded-851 StyledComponent-root-12"
 >
+  <span
+    className="MuiTypography-root-877 MuiTypography-caption-887 MuiTypography-alignCenter-891"
+  >
+    termwiki
+  </span>
   <div>
     <div
       className="css-1jd5iyo"
@@ -5296,7 +6273,20 @@ exports[`Storyshots TermWikiArticle default 1`] = `
       >
         guolli
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -5308,12 +6298,30 @@ exports[`Storyshots TermWikiArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         sme
       </span>
@@ -5325,437 +6333,445 @@ exports[`Storyshots TermWikiArticle default 1`] = `
         className="css-6n7j50"
       >
         <span
-          className="css-1xbsv2t"
+          className="css-1isemmb"
         >
-          guolli
+          <a
+            href="/article/guolli"
+            onClick={[Function]}
+          >
+            guolli
+          </a>
         </span>
          
-        N
+        <span
+          aria-describedby={null}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          title={null}
+        >
+          (
+          N
+          )
+        </span>
          
         nob
       </span>
     </div>
-  </div>
-  <div
-    className="css-jxikhn"
-  >
-    <a
-      href="https://satni.uit.no/termwiki/index.php?title=Luonddudieđa ja matematihkka:guolli"
-      target="_blank"
-    >
-      This article on the TermWiki
-    </a>
   </div>
 </div>
 `;
 
 exports[`Storyshots VerbParadigm North saami verbs 1`] = `
 <table
-  className="MuiTable-root-453"
+  className="MuiTable-root-910"
 >
   <thead
-    className="MuiTableHead-root-454"
+    className="MuiTableHead-root-911"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     />
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     >
       Present
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     >
       Prs ConNeg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     >
       Perfectum
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     >
       PrfPrc
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-455 MuiTableCell-head-456"
+      className="MuiTableCell-root-912 MuiTableCell-head-913"
       scope="col"
     >
       Prt ConNeg
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-463"
+    className="MuiTableBody-root-920"
   >
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         mun
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         váccán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (in) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (lean) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (in) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         don
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         váccát
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (it) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (it) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         son
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzá
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ii) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         váccii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (lea) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ii) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         moai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázze
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ean) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vácciime
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ledne) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ean) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         doai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzibeahtti
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eahppi) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vácciide
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leahppi) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eahppi) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         soai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázziba
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eaba) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vácciiga
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leaba) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eaba) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         mii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzit
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eat) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vácciimet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leat) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         dii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzibehtet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ehpet) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vácciidet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (lehpet) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (ehpet) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-464"
+      className="MuiTableRow-root-921"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         sii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázzet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eai) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         vázze
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-455 MuiTableCell-body-457"
+        className="MuiTableCell-root-912 MuiTableCell-body-914"
       >
         (eat) vázzán
       </td>

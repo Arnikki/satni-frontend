@@ -179,12 +179,12 @@ export const translationExamples = (xg) => {
 
 export const normaliseDict = (existDict) => {
   const results = [];
-  const translations = [];
+  const stems = [];
   const tg = existDict.tg;
 
   tg.forEach((tr) => {
-    let translations = translationStems(tr);
-    translations.unshift({
+    let stems = translationStems(tr);
+    stems.unshift({
       'lemma': existDict.term,
       'lang': existDict.lang,
       'pos': existDict.pos
@@ -194,7 +194,7 @@ export const normaliseDict = (existDict) => {
 
     results.push(
       {
-        translations,
+        stems,
         examples,
         termwikiref: existDict.termwikiref,
         dict: existDict.dict
@@ -206,7 +206,7 @@ export const normaliseDict = (existDict) => {
 
   results.push(
     {
-      translations,
+      stems,
       examples,
       termwikiref: existDict.termwikiref,
       dict: existDict.dict
@@ -371,7 +371,7 @@ export const normaliseAdjParadigm = (html) => {
 
     splits = idText.split(' ');
     if (
-      (splits.length === 3 && num.has(splits[1])) || 
+      (splits.length === 3 && num.has(splits[1])) ||
        (splits.length === 2)
     ) {
       splits.splice(1, 0, 'Positive');

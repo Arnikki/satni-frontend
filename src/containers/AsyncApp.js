@@ -5,6 +5,7 @@ import Searcher from '../components/Searcher';
 import Articles from '../components/Articles';
 import AppBar from '../components/AppBar';
 import BottomBar from '../components/BottomBar';
+import InflectionContainer from './InflectionContainer';
 import { createMuiTheme, MuiThemeProvider, withStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
@@ -32,12 +33,16 @@ const AsyncApp = ({classes, match}) => (
     <CssBaseline />
     <AppBar />
     <Grid container className={classes.container}>
-      <Paper className={classes.paper}>
+      <Grid item xs>
         {match.params.lemma ?
           <Articles lemma={match.params.lemma} /> :
         null
         }
-      </Paper>
+      </Grid>
+      <Grid item xs>
+        <div>Inflections</div>
+        <InflectionContainer lemma={match.params.lemma} />
+      </Grid>
     </Grid>
     <BottomBar />
   </MuiThemeProvider>
