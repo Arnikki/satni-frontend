@@ -29,7 +29,7 @@ const styles = theme => ({
 });
 
 const AsyncApp = ({classes, match}) => (
-  <MuiThemeProvider>
+  <MuiThemeProvider theme={theme}>
     <CssBaseline />
     <AppBar />
     <Grid container className={classes.container}>
