@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import { OrderedSet, Set } from 'immutable';
-
+import { loadUiLanguage } from './localStorage';
 import {
   CHANGE_UI_LANGUAGE,
   SELECT_KEY,
@@ -182,12 +182,12 @@ const errorMessage = (state = null, action) => {
   }
 };
 
-const uiLanguage = (state = 'se', action) => {
+const uiLanguage = (state = '', action) => {
   switch (action.type) {
     case CHANGE_UI_LANGUAGE:
       return action.languageCode;
     default:
-      return state;
+      return loadUiLanguage();
   }
 };
 
