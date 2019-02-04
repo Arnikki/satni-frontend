@@ -38,7 +38,7 @@ const partOfSpeech = [
   t`MWE`
 ];
 
-const Stem = ({ stem: {lemma, pos, lang, key}}) => {
+const Stem = ({ stem: {lemma, pos, lang, key, re}}) => {
   const address = `/article/${lemma}`;
   return (
     <div
@@ -48,7 +48,7 @@ const Stem = ({ stem: {lemma, pos, lang, key}}) => {
       })}>
       <span className={css({ display: 'inline'})}>{key ? <span className={css({
         marginLeft: '8px'
-      })}><Link to={address}>{lemma}</Link></span> : lemma} <Tooltip title={<Trans id={pos} />}><span>({pos})</span></Tooltip> {lang && <Trans id={lang} />}
+      })}><Link to={address}>{lemma}</Link></span> : lemma} {re} <Tooltip title={<Trans id={pos} />}><span>({pos})</span></Tooltip> {lang && <Trans id={lang} />}
       </span>
     </div>
   );

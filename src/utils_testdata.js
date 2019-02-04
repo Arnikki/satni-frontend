@@ -63,32 +63,6 @@ export const resultAehtjie = [
   }
 ];
 
-export const resultSDTerm = {
-  stems: [
-    {
-      lemma: 'gođđinmuorra',
-      pos: 'S',
-      lang: 'sme'
-    },
-    {
-      lemma: 'guolládat',
-      pos: 'S',
-      lang: 'sme'
-    },
-    {
-      lemma: 'guolla',
-      pos: 'S',
-      lang: 'sme'
-    },
-    {
-      lemma: 'målepinne',
-      pos: 'S',
-      lang: 'nob'
-    }
-  ],
-  dict: 'SD-terms'
-};
-
 export const resultTermWiki = {
   stems: [
     {
@@ -126,37 +100,26 @@ export const resultTermWiki = {
   dict: 'termwiki'
 };
 
-export const resultMekanikk99 = {
-  'dict': 'mekanikk-1999',
-  'stems': [
-    {
-      'lang': 'swe',
-      'lemma': 'traktor',
-      'pos': undefined
-    },
-    {
-      'lang': 'nob',
-      'lemma': 'traktor',
-      'pos': undefined
-    },
-    {
-      'lang': 'sme',
-      'lemma': 'traktor',
-      'pos': undefined
-    },
-    {
-      'lang': 'fin',
-      'lemma': 'traktori',
-      'pos': undefined
-    },
-    {
-      'lang': 'eng',
-      'lemma': 'tractor',
-      'pos': undefined
-    }
-  ],
-  'termwikiref': 'x34074'
-};
+export const resultSnakkeWithRe = [
+  {
+    'dict': 'nobsme',
+    'examples': [],
+    'termwikiref': '-1',
+    'translations': [
+      {
+        'lang': 'nob',
+        'lemma':
+      'snakke',
+        'pos': 'V'
+      },
+      {
+        'lang': 'sme',
+        'lemma': 'sámástit',
+        'pos': 'V',
+        're': '(snakke samisk)'
+      }
+    ]
+  }];
 
 export const resultSmnNounParadigm = {
   Nom: {
@@ -738,36 +701,4 @@ export const resultSmnVerbParadigm = {
     Du1: ['(ledne) vázzám'], Du2: ['(leahppi) vázzám'], Du3: ['(leaba) vázzám'],
     Pl1: ['(leat) vázzám'], Pl2: ['(lehpet) vázzám'], Pl3: ['(leat) vázzám']
   }
-};
-
-export const resultJustermTana = {
-  'dict': 'JustermTana',
-  'stems': [
-    {
-      lang: 'nob',
-      lemma: 'unngå',
-      pos: 'v'
-    },
-    {
-      'lang': 'sme',
-      'lemma': 'garvit',
-      'pos': 'v'
-    },
-    {
-      'lang': 'fin',
-      'lemma': 'välttää',
-      'pos': 'v'
-    }
-  ]
-};
-
-export const resultFordel = {
-  'dict': 'SD-terms',
-  'stems': [
-    {
-      'lang': 'sme',
-      'lemma': 'fordel',
-      'pos': 'S'
-    }
-  ]
 };

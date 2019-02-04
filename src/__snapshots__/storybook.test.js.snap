@@ -3128,21 +3128,21 @@ exports[`Storyshots Examples default 1`] = `
 
 exports[`Storyshots KorpLinks default 1`] = `
 <div
-  className="MuiPaper-root-926 MuiPaper-elevation2-930 MuiPaper-rounded-927"
+  className="MuiPaper-root-693 MuiPaper-elevation2-697 MuiPaper-rounded-694"
 >
   <aside
-    className="MuiTypography-root-953 MuiTypography-body2-961"
+    className="MuiTypography-root-720 MuiTypography-body2-728"
   >
     Korp findings
   </aside>
   <ul
-    className="MuiList-root-979 MuiList-padding-980"
+    className="MuiList-root-746 MuiList-padding-747"
   >
     <div
-      className="MuiListItemText-root-983"
+      className="MuiListItemText-root-750"
     >
       <span
-        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
+        className="MuiTypography-root-720 MuiTypography-subheading-727 MuiListItemText-primary-753"
       >
         <a
           href="http://gtweb.uit.no/korp/#?search=cqp|[lemma%3D\\"guolli\\"]"
@@ -3153,10 +3153,10 @@ exports[`Storyshots KorpLinks default 1`] = `
       </span>
     </div>
     <div
-      className="MuiListItemText-root-983"
+      className="MuiListItemText-root-750"
     >
       <span
-        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
+        className="MuiTypography-root-720 MuiTypography-subheading-727 MuiListItemText-primary-753"
       >
         <a
           href="http://gtweb.uit.no/korp/?mode=smj#?search=cqp|[lemma%3D\\"guolle\\"]"
@@ -3167,10 +3167,10 @@ exports[`Storyshots KorpLinks default 1`] = `
       </span>
     </div>
     <div
-      className="MuiListItemText-root-983"
+      className="MuiListItemText-root-750"
     >
       <span
-        className="MuiTypography-root-953 MuiTypography-subheading-960 MuiListItemText-primary-986"
+        className="MuiTypography-root-720 MuiTypography-subheading-727 MuiListItemText-primary-753"
       >
         <a
           href="http://gtweb.uit.no/korp/?mode=smn#?search=cqp|[lemma%3D\\"kyele\\"]"
@@ -4217,10 +4217,10 @@ exports[`Storyshots PresentArticles All types 1`] = `
   className="css-1f4j338"
 >
   <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
+    className="MuiPaper-root-429 MuiPaper-elevation2-433 MuiPaper-rounded-430 StyledComponent-root-6"
   >
     <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+      className="MuiTypography-root-456 MuiTypography-caption-466 MuiTypography-alignCenter-470"
     >
       smenob
     </span>
@@ -4315,10 +4315,10 @@ exports[`Storyshots PresentArticles All types 1`] = `
     </div>
   </div>
   <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
+    className="MuiPaper-root-429 MuiPaper-elevation2-433 MuiPaper-rounded-430 StyledComponent-root-6"
   >
     <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+      className="MuiTypography-root-456 MuiTypography-caption-466 MuiTypography-alignCenter-470"
     >
       smefin
     </span>
@@ -4388,10 +4388,10 @@ exports[`Storyshots PresentArticles All types 1`] = `
     <div />
   </div>
   <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
+    className="MuiPaper-root-429 MuiPaper-elevation2-433 MuiPaper-rounded-430 StyledComponent-root-6"
   >
     <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
+      className="MuiTypography-root-456 MuiTypography-caption-466 MuiTypography-alignCenter-470"
     >
       termwiki
     </span>
@@ -4598,427 +4598,6 @@ exports[`Storyshots PresentArticles All types 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
-  >
-    <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
-    >
-      SD-terms
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          gođđinmuorra
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/guolládat"
-              onClick={[Function]}
-            >
-              guolládat
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/guolla"
-              onClick={[Function]}
-            >
-              guolla
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-57uot7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/målepinne"
-              onClick={[Function]}
-            >
-              målepinne
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
-  >
-    <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
-    >
-      mekanikk-1999
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          traktor
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          ruoŧŧagiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktor"
-              onClick={[Function]}
-            >
-              traktor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktor"
-              onClick={[Function]}
-            >
-              traktor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-57uot7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktori"
-              onClick={[Function]}
-            >
-              traktori
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          suomagiella
-        </span>
-      </div>
-      <div
-        className="css-f0vlhc"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/tractor"
-              onClick={[Function]}
-            >
-              tractor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          eŋgelasgiella
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    className="MuiPaper-root-669 MuiPaper-elevation2-673 MuiPaper-rounded-670 StyledComponent-root-10"
-  >
-    <span
-      className="MuiTypography-root-696 MuiTypography-caption-706 MuiTypography-alignCenter-710"
-    >
-      JustermTana
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          unngå
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/garvit"
-              onClick={[Function]}
-            >
-              garvit
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/välttää"
-              onClick={[Function]}
-            >
-              välttää
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          suomagiella
-        </span>
-      </div>
-    </div>
-  </div>
 </div>
 `;
 
@@ -5203,269 +4782,6 @@ exports[`Storyshots PresentArticles DictArticle without examples 1`] = `
       </div>
     </div>
     <div />
-  </div>
-</div>
-`;
-
-exports[`Storyshots PresentArticles Only JustermTana 1`] = `
-<div
-  className="css-1f4j338"
->
-  <div
-    className="MuiPaper-root-609 MuiPaper-elevation2-613 MuiPaper-rounded-610 StyledComponent-root-9"
-  >
-    <span
-      className="MuiTypography-root-636 MuiTypography-caption-646 MuiTypography-alignCenter-650"
-    >
-      JustermTana
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          unngå
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/garvit"
-              onClick={[Function]}
-            >
-              garvit
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/välttää"
-              onClick={[Function]}
-            >
-              välttää
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            v
-            )
-          </span>
-           
-          suomagiella
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots PresentArticles Only SDTermArticle 1`] = `
-<div
-  className="css-1f4j338"
->
-  <div
-    className="MuiPaper-root-429 MuiPaper-elevation2-433 MuiPaper-rounded-430 StyledComponent-root-6"
-  >
-    <span
-      className="MuiTypography-root-456 MuiTypography-caption-466 MuiTypography-alignCenter-470"
-    >
-      SD-terms
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          gođđinmuorra
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/guolládat"
-              onClick={[Function]}
-            >
-              guolládat
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/guolla"
-              onClick={[Function]}
-            >
-              guolla
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-57uot7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/målepinne"
-              onClick={[Function]}
-            >
-              målepinne
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -5688,235 +5004,12 @@ exports[`Storyshots PresentArticles Only TermWikiArticle 1`] = `
 </div>
 `;
 
-exports[`Storyshots PresentArticles Only mekanikk99 1`] = `
-<div
-  className="css-1f4j338"
->
-  <div
-    className="MuiPaper-root-549 MuiPaper-elevation2-553 MuiPaper-rounded-550 StyledComponent-root-8"
-  >
-    <span
-      className="MuiTypography-root-576 MuiTypography-caption-586 MuiTypography-alignCenter-590"
-    >
-      mekanikk-1999
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          traktor
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          ruoŧŧagiella
-        </span>
-      </div>
-      <div
-        className="css-1inwbm7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktor"
-              onClick={[Function]}
-            >
-              traktor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          girjedárogiella
-        </span>
-      </div>
-      <div
-        className="css-1idyajt"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktor"
-              onClick={[Function]}
-            >
-              traktor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-      <div
-        className="css-57uot7"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/traktori"
-              onClick={[Function]}
-            >
-              traktori
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          suomagiella
-        </span>
-      </div>
-      <div
-        className="css-f0vlhc"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          <span
-            className="css-1isemmb"
-          >
-            <a
-              href="/article/tractor"
-              onClick={[Function]}
-            >
-              tractor
-            </a>
-          </span>
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            )
-          </span>
-           
-          eŋgelasgiella
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots PresentArticles SDTerm, t is no array 1`] = `
-<div
-  className="css-1f4j338"
->
-  <div
-    className="MuiPaper-root-489 MuiPaper-elevation2-493 MuiPaper-rounded-490 StyledComponent-root-7"
-  >
-    <span
-      className="MuiTypography-root-516 MuiTypography-caption-526 MuiTypography-alignCenter-530"
-    >
-      SD-terms
-    </span>
-    <div>
-      <div
-        className="css-1jd5iyo"
-      >
-        <span
-          className="css-6n7j50"
-        >
-          fordel
-           
-          <span
-            aria-describedby={null}
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            onMouseOver={[Function]}
-            onTouchEnd={[Function]}
-            onTouchStart={[Function]}
-            title={null}
-          >
-            (
-            S
-            )
-          </span>
-           
-          davvisámegiella
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots SDTermArticle default 1`] = `
 <div
-  className="MuiPaper-root-729 MuiPaper-elevation2-733 MuiPaper-rounded-730 StyledComponent-root-11"
+  className="MuiPaper-root-489 MuiPaper-elevation2-493 MuiPaper-rounded-490 StyledComponent-root-7"
 >
   <span
-    className="MuiTypography-root-756 MuiTypography-caption-766 MuiTypography-alignCenter-770"
+    className="MuiTypography-root-516 MuiTypography-caption-526 MuiTypography-alignCenter-530"
   >
     SD-terms
   </span>
@@ -6023,7 +5116,7 @@ exports[`Storyshots SDTermArticle default 1`] = `
 
 exports[`Storyshots Source default 1`] = `
 <span
-  className="MuiTypography-root-789 MuiTypography-caption-799 MuiTypography-alignCenter-803"
+  className="MuiTypography-root-549 MuiTypography-caption-559 MuiTypography-alignCenter-563"
 >
   smenob
 </span>
@@ -6154,6 +5247,39 @@ exports[`Storyshots Stem non_sami 1`] = `
 </div>
 `;
 
+exports[`Storyshots Stem with_re 1`] = `
+Array [
+  <div
+    className="css-1jd5iyo"
+  >
+    <span
+      className="css-6n7j50"
+    >
+      guolli
+       
+      (restring)
+      <span
+        aria-describedby={null}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        title={null}
+      >
+        (
+        N
+        )
+      </span>
+       
+      sme
+    </span>
+  </div>,
+  ")",
+]
+`;
+
 exports[`Storyshots Stems default 1`] = `
 <div>
   <div
@@ -6257,10 +5383,10 @@ exports[`Storyshots Stems default 1`] = `
 
 exports[`Storyshots TermWikiArticle default 1`] = `
 <div
-  className="MuiPaper-root-850 MuiPaper-elevation2-854 MuiPaper-rounded-851 StyledComponent-root-12"
+  className="MuiPaper-root-617 MuiPaper-elevation2-621 MuiPaper-rounded-618 StyledComponent-root-8"
 >
   <span
-    className="MuiTypography-root-877 MuiTypography-caption-887 MuiTypography-alignCenter-891"
+    className="MuiTypography-root-644 MuiTypography-caption-654 MuiTypography-alignCenter-658"
   >
     termwiki
   </span>
@@ -6367,411 +5493,411 @@ exports[`Storyshots TermWikiArticle default 1`] = `
 
 exports[`Storyshots VerbParadigm North saami verbs 1`] = `
 <table
-  className="MuiTable-root-910"
+  className="MuiTable-root-677"
 >
   <thead
-    className="MuiTableHead-root-911"
+    className="MuiTableHead-root-678"
   >
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     />
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     >
       Present
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     >
       Prs ConNeg
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     >
       Perfectum
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     >
       PrfPrc
     </th>
     <th
       aria-sort={null}
-      className="MuiTableCell-root-912 MuiTableCell-head-913"
+      className="MuiTableCell-root-679 MuiTableCell-head-680"
       scope="col"
     >
       Prt ConNeg
     </th>
   </thead>
   <tbody
-    className="MuiTableBody-root-920"
+    className="MuiTableBody-root-687"
   >
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         mun
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         váccán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (in) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzen
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (lean) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (in) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         don
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         váccát
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (it) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (it) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         son
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzá
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ii) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         váccii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (lea) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ii) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         moai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázze
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ean) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vácciime
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ledne) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ean) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         doai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzibeahtti
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eahppi) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vácciide
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leahppi) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eahppi) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         soai
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázziba
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eaba) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vácciiga
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leaba) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eaba) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         mii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzit
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eat) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vácciimet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leat) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         dii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzibehtet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ehpet) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vácciidet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (lehpet) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (ehpet) vázzán
       </td>
     </tr>
     <tr
-      className="MuiTableRow-root-921"
+      className="MuiTableRow-root-688"
     >
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         sii
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázzet
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eai) vácce
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         vázze
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (leat) vázzán
       </td>
       <td
         aria-sort={null}
-        className="MuiTableCell-root-912 MuiTableCell-body-914"
+        className="MuiTableCell-root-679 MuiTableCell-body-681"
       >
         (eat) vázzán
       </td>

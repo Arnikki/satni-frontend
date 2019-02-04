@@ -14,6 +14,11 @@ storiesOf('Stem', module)
       <Stem stem={stem} />
     </I18nProvider>
   </Router>)
+  .add('with_re', () => <Router>
+    <I18nProvider>
+      <Stem stem={{...stem, re: '(restring)'}} />)
+    </I18nProvider>
+  </Router>)
   .add('key_nonzero', () => <Router>
     <I18nProvider>
       <Stem stem={{...stem, key: 1}} />
