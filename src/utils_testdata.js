@@ -104,8 +104,7 @@ export const resultSnakkeWithRe = [
   {
     'dict': 'nobsme',
     'examples': [],
-    'termwikiref': '-1',
-    'translations': [
+    'stems': [
       {
         'lang': 'nob',
         'lemma':
@@ -118,7 +117,8 @@ export const resultSnakkeWithRe = [
         'pos': 'V',
         're': '(snakke samisk)'
       }
-    ]
+    ],
+    'termwikiref': '-1'
   }];
 
 export const resultSmnNounParadigm = {
